@@ -1,0 +1,87 @@
+[
+  {
+    "name": "Phở Hòa Pasteur",
+    "address": "260C Pasteur, Phường 8, Quận 3",
+    "district": "Quận 3",
+    "lat": 10.7836,
+    "lng": 106.6885,
+    "phone": "028 3829 7943",
+    "price_min": 40000,
+    "price_max": 80000,
+    "price_level": 2,
+    "rating": 4.5,
+    "review_count": 1250,
+    "hours": {
+      "mon": "06:00-22:00",
+      "tue": "06:00-22:00",
+      "wed": "06:00-22:00",
+      "thu": "06:00-22:00",
+      "fri": "06:00-22:00",
+      "sat": "06:00-22:00",
+      "sun": "06:00-22:00"
+    },
+    "features": {
+      "ac": true,
+      "wifi": false,
+      "vegetarian": false,
+      "halal": false,
+      "parking": true
+    },
+    "dishes": ["Phở", "Bún bò Huế", "Bánh cuốn"],
+    "image_urls": []
+  },
+  {
+    "name": "Bánh Mì Huỳnh Hoa",
+    "address": "26 Lê Thị Riêng, Phường Bến Thành, Quận 1",
+    "district": "Quận 1",
+    "lat": 10.7697,
+    "lng": 106.6958,
+    "phone": "0903 897 200",
+    "price_min": 25000,
+    "price_max": 45000,
+    "price_level": 1,
+    "rating": 4.3,
+    "review_count": 890,
+    "hours": {
+      "mon": "15:00-23:00",
+      "tue": "15:00-23:00",
+      "wed": "15:00-23:00",
+      "thu": "15:00-23:00",
+      "fri": "15:00-23:00",
+      "sat": "15:00-23:00",
+      "sun": "15:00-23:00"
+    },
+    "features": {
+      "ac": false,
+      "wifi": false,
+      "vegetarian": false,
+      "halal": false,
+      "parking": false
+    },
+    "dishes": ["Bánh mì"],
+    "image_urls": []
+  },
+  {
+    "name": "Cơm Tấm Mộc",
+    "address": "191 Bùi Viện, Phường Phạm Ngũ Lão, Quận 1",
+    "district": "Quận 1",
+    "lat": null,
+    "lng": null,
+    "phone": null,
+    "price_min": 35000,
+    "price_max": 70000,
+    "price_level": 2,
+    "rating": 4.6,
+    "review_count": 520,
+    "hours": null,
+    "features": {
+      "ac": true,
+      "wifi": true,
+      "vegetarian": false,
+      "halal": false,
+      "parking": false
+    },
+    "dishes": ["Cơm tấm", "Sườn nướng"],
+    "image_urls": []
+  }
+]

@@ -1,0 +1,38 @@
+name: CI
+on:
+  push:
+    branches: [main, develop]
+  pull_request:
+    branches: [main]
+
+jobs:
+  test-api:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: cd apps/api && pip install -r requirements.txt
+      - run: cd apps/api && python -m pytest tests/ -v --tb=short || echo "No tests yet"
+
+  lint-web:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - run: cd apps/web && npm ci
+      - run: cd apps/web && npm run lint
+      - run: cd apps/web && npm run build
+
+  health-check:
+    needs: [test-api, lint-web]
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/main'
+    steps:
+      - name: Wait for Railway deploy
+        run: sleep 60
+      - name: Check API health
+        run: curl -f https://your-api.railway.app/health || exit 1

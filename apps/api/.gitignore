@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.env
+.venv/
+venv/
+
+# API tokens and cookies (DO NOT COMMIT)
+.shopee_token
+.foody_cookie
+shopee_curl.txt
+foody_curl.txt
+test_shopee_api.py
+test_foody_api.py

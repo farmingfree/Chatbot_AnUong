@@ -1,0 +1,14 @@
+fastapi
+uvicorn
+asyncpg
+sqlalchemy[asyncio]
+geoalchemy2
+redis
+httpx
+python-dotenv
+pydantic-settings
+pyjwt
+email-validator
+openai
+beautifulsoup4
+tqdm

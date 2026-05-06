@@ -1,0 +1,37 @@
+# Environment files
+.env
+.env.local
+.env.production
+apps/api/.env
+apps/web/.env.local
+
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Large data files (regenerate with: python -m scripts.fetch_osm)
+apps/api/data/*.json
+!apps/api/data/sample_places.json
+
+# Logs
+*.log
+
+# Build outputs
+.next/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Debug/research artifacts at wrong level
+foody_debug.html
