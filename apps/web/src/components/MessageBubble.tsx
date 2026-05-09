@@ -36,7 +36,7 @@ export function MessageBubble({ message }: MessageBubbleProps) {
       <div className="flex justify-start mb-3 sm:mb-4 animate-fadeIn px-2 sm:px-0">
         <div className="w-full max-w-full sm:max-w-[90%]">
           <div className="bg-gray-100 dark:bg-gray-800 rounded-2xl px-3 py-2 sm:px-4 sm:py-3">
-            <div className="prose dark:prose-invert max-w-none prose-sm sm:prose-base">
+            <div className="prose dark:prose-invert max-w-none prose-sm sm:prose-base text-gray-900 dark:text-gray-100">
               <p className="whitespace-pre-wrap m-0 break-words">{message.content}</p>
             </div>
           </div>
@@ -89,7 +89,7 @@ export function MessageBubble({ message }: MessageBubbleProps) {
             <div className="grid grid-cols-2 gap-3 sm:gap-4 mb-4">
               {place.rating && (
                 <div>
-                  <span className="text-xs sm:text-sm text-gray-500">Đánh giá</span>
+                  <span className="text-xs sm:text-sm text-gray-500 dark:text-gray-400">Đánh giá</span>
                   <div className="flex items-center gap-1">
                     <span className="text-yellow-500">⭐</span>
                     <span className="font-semibold text-sm sm:text-base">{place.rating.toFixed(1)}</span>
@@ -99,7 +99,7 @@ export function MessageBubble({ message }: MessageBubbleProps) {
 
               {place.distance_m !== undefined && (
                 <div>
-                  <span className="text-xs sm:text-sm text-gray-500">Khoảng cách</span>
+                  <span className="text-xs sm:text-sm text-gray-500 dark:text-gray-400">Khoảng cách</span>
                   <div className="font-semibold text-sm sm:text-base">
                     {place.distance_m < 1000
                       ? `${Math.round(place.distance_m)}m`

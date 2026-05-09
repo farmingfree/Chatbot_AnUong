@@ -46,7 +46,7 @@ export default function Home() {
           <div className="flex justify-start mb-3 sm:mb-4 animate-fadeIn px-2 sm:px-0">
             <div className="w-full max-w-full sm:max-w-[90%]">
               <div className="bg-gray-100 dark:bg-gray-800 rounded-2xl px-3 py-2 sm:px-4 sm:py-3">
-                <p className="whitespace-pre-wrap text-sm sm:text-base break-words">{currentStreamingMessage}</p>
+                <p className="whitespace-pre-wrap text-sm sm:text-base break-words text-gray-900 dark:text-gray-100">{currentStreamingMessage}</p>
               </div>
             </div>
           </div>
