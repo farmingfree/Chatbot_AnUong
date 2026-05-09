@@ -41,10 +41,33 @@ async def init_db():
     try:
         async with engine.begin() as conn:
             await conn.execute(text("CREATE EXTENSION IF NOT EXISTS postgis"))
-        print("[OK] Database connected")
+        print("[OK] Database connected, PostGIS enabled")
     except Exception as e:
         print(f"[WARN] Database not available: {e}")
         print("   API will start but DB-dependent features won't work.")
+        return
+
+    try:
+        from app.models import Base
+        async with engine.begin() as conn:
+            await conn.run_sync(Base.metadata.create_all)
+        print("[OK] Tables created/verified")
+    except Exception as e:
+        print(f"[ERR] Failed to create tables: {e}")
+        return
+
+    try:
+        async with AsyncSessionLocal() as session:
+            tables = (await session.execute(text(
+                "SELECT COUNT(*) FROM information_schema.tables WHERE table_schema='public'"
+            ))).scalar()
+            places = (await session.execute(text("SELECT COUNT(*) FROM places"))).scalar()
+            dishes = (await session.execute(text("SELECT COUNT(*) FROM dishes"))).scalar()
+        print(f"[OK] DB stats: {tables} tables, {places} places, {dishes} dishes")
+        if places == 0:
+            print("[INFO] No data in DB. Run: python -m scripts.seed_realistic")
+    except Exception:
+        pass
 
 
 async def close_redis():

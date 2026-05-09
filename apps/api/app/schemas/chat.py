@@ -14,6 +14,7 @@ class ChatRequest(BaseModel):
     lat: float | None = None
     lng: float | None = None
     session_id: str | None = None
+    user_id: str | None = None
 
 
 class ChatResponse(BaseModel):

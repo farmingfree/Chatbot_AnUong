@@ -10,7 +10,7 @@ class Review(Base):
 
     id: Mapped[uuid.UUID] = mapped_column(primary_key=True, default=uuid.uuid4)
     place_id: Mapped[uuid.UUID] = mapped_column(ForeignKey("places.id"), nullable=False)
-    source: Mapped[str] = mapped_column(String(20))
+    source: Mapped[str] = mapped_column(String(50))
     author_name: Mapped[str | None] = mapped_column(String(100))
     rating: Mapped[float | None] = mapped_column(Float)
     content: Mapped[str | None] = mapped_column(Text)

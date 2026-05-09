@@ -12,3 +12,6 @@ email-validator
 openai
 beautifulsoup4
 tqdm
+sentence-transformers>=2.6.0
+qdrant-client>=1.9.0
+playwright>=1.40.0

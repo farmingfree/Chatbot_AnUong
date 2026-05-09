@@ -61,19 +61,24 @@ class PlaceDetail(BaseModel):
 
 
 class NearbyPlacesRequest(BaseModel):
-    lat: float
-    lng: float
+    lat: float = Field(ge=-90, le=90)
+    lng: float = Field(ge=-180, le=180)
     radius_m: int = Field(default=500, ge=100, le=5000)
     dish_name: str | None = None
     vegetarian: bool = False
     halal: bool = False
-    price_max_per_person: int | None = None  # VNĐ
+    price_max_per_person: int | None = Field(default=None, ge=1)
     people_count: int = Field(default=1, ge=1, le=20)
     limit: int = Field(default=10, ge=1, le=30)
+
+
+class NearbyCenter(BaseModel):
+    lat: float
+    lng: float
 
 
 class NearbyPlacesResponse(BaseModel):
     places: list[PlaceCard]
     total: int
     radius_m: int
-    center: dict  # {lat, lng}
+    center: NearbyCenter

@@ -1,18 +1,24 @@
+import logging
 from fastapi import APIRouter, Depends, HTTPException, Query
 from sqlalchemy.ext.asyncio import AsyncSession
 from sqlalchemy import text, select
+from sqlalchemy.exc import SQLAlchemyError
 from typing import List, Optional
 from uuid import UUID
+
+logger = logging.getLogger(__name__)
 
 from app.database import get_db
 from app.schemas.place import (
     NearbyPlacesRequest,
     NearbyPlacesResponse,
+    NearbyCenter,
     PlaceCard,
     PlaceDetail
 )
 from app.models import Place, Review
 from app.services.geo import normalize_text, is_open_now, calc_distance_m, get_google_maps_url
+from app.services.ranking import score_place
 
 router = APIRouter(prefix="/api/places", tags=["places"])
 
@@ -91,35 +97,52 @@ async def search_nearby_places(
     
     result = await db.execute(text(query), params)
     rows = result.fetchall()
-    
-    # Map to PlaceCard schema
-    places = []
+
+    scored_rows = []
     for row in rows:
-        # Get first image or None
-        image_url = row.image_urls[0] if row.image_urls else None
-        
-        # Get top 3 dishes
-        dishes = (row.dish_names or [])[:3]
-        
-        # Calculate is_open_now
         is_open = is_open_now(row.hours)
-        
-        place_card = PlaceCard(
-            id=row.id,
-            name=row.name,
-            address=row.address,
-            district=row.district,
-            distance_m=int(row.distance_m),
+        s = score_place(
+            distance_m=row.distance_m,
+            radius_m=req.radius_m,
             rating=row.rating_google,
             review_count=row.review_count,
+            dish_names=row.dish_names,
+            requested_dish=req.dish_name,
+            price_min=row.price_min,
+            price_max=row.price_max,
+            budget_per_person=req.price_max_per_person,
+            is_open=is_open,
+        )
+        scored_rows.append((s, row, is_open))
+
+    scored_rows.sort(key=lambda x: x[0], reverse=True)
+
+    places = []
+    for _score, row, is_open in scored_rows:
+        image_url = row.image_urls[0] if row.image_urls else None
+        dishes = (row.dish_names or [])[:3]
+        distance = int(row.distance_m) if row.distance_m is not None else None
+
+        if row.price_min is not None and row.price_max is not None:
+            price_range = f"{row.price_min:,}đ - {row.price_max:,}đ"
+        else:
+            price_range = None
+
+        places.append(PlaceCard(
+            id=row.id,
+            name=row.name,
+            address=row.address or "",
+            district=row.district or "",
+            distance_m=distance,
+            rating=row.rating_google,
+            review_count=row.review_count or 0,
             price_level=row.price_level,
-            price_range=f"{row.price_min:,}đ - {row.price_max:,}đ" if row.price_min and row.price_max else None,
+            price_range=price_range,
             image_url=image_url,
             is_open_now=is_open,
-            top_dishes=dishes
-        )
-        places.append(place_card)
-    
+            top_dishes=dishes,
+        ))
+
     return places
 
 
@@ -130,25 +153,37 @@ async def get_nearby_places(
 ):
     """
     Find nearby places based on location and filters
-    
+
     - **lat**: Latitude (e.g., 10.7769 for Ben Thanh Market)
     - **lng**: Longitude (e.g., 106.7009)
-    - **radius_m**: Search radius in meters (default: 1000m)
-    - **limit**: Max results (default: 20)
+    - **radius_m**: Search radius in meters (default: 500m)
+    - **limit**: Max results (default: 10)
     - **price_max_per_person**: Max price per person in VND
     - **people_count**: Number of people (default: 1)
     - **vegetarian**: Filter vegetarian places
     - **halal**: Filter halal places
     - **dish_name**: Search by dish name (e.g., "phở", "cơm tấm")
     """
-    places = await search_nearby_places(request, db)
-    
+    if request.lat == 0 and request.lng == 0:
+        raise HTTPException(status_code=400, detail="Invalid coordinates: lat=0, lng=0")
+
+    if request.price_max_per_person is not None and request.price_max_per_person <= 0:
+        raise HTTPException(status_code=400, detail="price_max_per_person must be positive")
+
+    try:
+        places = await search_nearby_places(request, db)
+    except SQLAlchemyError as e:
+        logger.exception("Database error in search_nearby_places: %s", e)
+        raise HTTPException(status_code=500, detail="Internal server error")
+    except Exception as e:
+        logger.exception("Unexpected error in search_nearby_places: %s", e)
+        raise HTTPException(status_code=500, detail="Internal server error")
+
     return NearbyPlacesResponse(
         places=places,
         total=len(places),
-        center_lat=request.lat,
-        center_lng=request.lng,
-        radius_m=request.radius_m
+        radius_m=request.radius_m,
+        center=NearbyCenter(lat=request.lat, lng=request.lng),
     )
 
 

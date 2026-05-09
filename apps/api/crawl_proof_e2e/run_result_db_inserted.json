@@ -1,0 +1,379 @@
+{
+  "query": "pho district 1 hcm",
+  "search_url": "https://www.google.com/maps/search/pho+district+1+hcm",
+  "places": [
+    {
+      "source_id": "https:__www_google_com_maps_place_Pho_Hung_data__4m7_3m6_1s0x31752f19d15e3a81:0xdcd7728d53d90a88_8m2_3d10_7648891_4d106_6877054_16s_2Fg_2F11bwg6pds7_19sChIJgTpe0RkvdTERiArZU41y19w_",
+      "name": "Pho Hung",
+      "address": "241 - 243 Nguyễn Trãi, Cầu Ông Lãnh, Hồ Chí Minh 700000, Vietnam",
+      "lat": 10.7648891,
+      "lng": 106.6877054,
+      "rating": 4.3,
+      "review_count": 4255,
+      "phone": "+84 28 3838 5089",
+      "website": "https://www.phohung.vn/",
+      "image_urls": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHC9w8U-xIGfJ3KV355bgyN3hZM2W0516cWKgRTU-5fEelEZXbPl3mQ01pN0PH-_b9gEM1Efr4Z_JCMf6XBOlenR8NXB3YcGzmXpgJM56Aw1eviP-I4xeaI8cj2eewya3HOUdxkYAzk_GTR=w32-h32-p-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHC9w8U-xIGfJ3KV355bgyN3hZM2W0516cWKgRTU-5fEelEZXbPl3mQ01pN0PH-_b9gEM1Efr4Z_JCMf6XBOlenR8NXB3YcGzmXpgJM56Aw1eviP-I4xeaI8cj2eewya3HOUdxkYAzk_GTR=w408-h306-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFQsNH5oeHaRbP0dK5iZmSsvO-armdcXjGwe3-IMZFxlD6fG9mggXlKvfYMhXucwlSP83RWWIWFcPa7jhEAyiNNLgJWnRGY1lO5GfojgJJvm42nPvlrLwssXJuHUfuwRdyO9Hr3mZAJqwdJ=w112-h112-p-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAExmZaiAuA_naRZ0FodfvrwOXkW_QX4gyfkp9D3JBroWGSv16hpF047QiQ7_DnOBKr6_p2-DA3sqUwovUwz1VhpsxlaNDPVfd69_iATmp3CcEGKAcykBmPAGNHnOa0XdfqH3y5xlw=w112-h112-p-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFekqCtMAC_g16ag5_wEho7drQvR5ZN_n6KqcN_-kardPFFLaAjBgB9OFXnf5S0uylpJUBNnQTY2AhPYBsY0Kc5NfjHP3g9y5KXi7IUZjfI76SIvRD7SPYHaatN9Lujx2IbWpI=w112-h112-p-k-no"
+      ],
+      "url": "https://www.google.com/maps/place/Pho+Hung/data=!4m7!3m6!1s0x31752f19d15e3a81:0xdcd7728d53d90a88!8m2!3d10.7648891!4d106.6877054!16s%2Fg%2F11bwg6pds7!19sChIJgTpe0RkvdTERiArZU41y19w?authuser=0&hl=en&rclk=1",
+      "district": "Quận 1"
+    },
+    {
+      "source_id": "https:__www_google_com_maps_place_Ph_E1_BB_9F_Vi_E1_BB_87t_Nam_data__4m7_3m6_1s0x31752fba354e2425:0xa794a1a48ee7a0ca_8m2_3d10_771386_4d106_6961339_16s_2Fg_2F11sbfdzrgc_19sChIJJSRON",
+      "name": "Phở Việt Nam",
+      "address": "14 Phạm Hồng Thái, Bến Thành, Hồ Chí Minh, Vietnam",
+      "lat": 10.771386,
+      "lng": 106.6961339,
+      "rating": 4.5,
+      "review_count": 5114,
+      "phone": null,
+      "website": "https://www.phovietnam.vn/",
+      "image_urls": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGu-XLJchHWe3p6NHuvVNGiu9DKsJv3k5Xy4SdZ8Z70qidQ4TlWDotbySxc0t_VgtIrkjWUV3gu5vnBPG83XgSKjUmJFIzRUNDSkZSX37b9zON16helaNnv08kSwrl-i6_AamK4=w32-h32-p-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGu-XLJchHWe3p6NHuvVNGiu9DKsJv3k5Xy4SdZ8Z70qidQ4TlWDotbySxc0t_VgtIrkjWUV3gu5vnBPG83XgSKjUmJFIzRUNDSkZSX37b9zON16helaNnv08kSwrl-i6_AamK4=w408-h306-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFodV3Xa5CKfFZ3fgDK2uV6wkREt-RftGKL55pIzk6FN53w8q9tBOFxReU_bJZ2hUQTHjphmipPmUokk1d7_0j0pV083Dpjqd_SLt8i0EVUOlBrGdWKHiZnaglMmiPfR2YG4RDW=w112-h112-p-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGeC3pM2-E19Erz7JWFX-kFyqCtpmoGff3NbqHEYBeJh3HmrF-cVjMVQr0eozIM1W3qzlmDPX--MF8K2dZNInNZliL7c13ru_1ZKa0CaXj7xIn-o5edAF58jWbwVDYyGgHpLLkMjA=w112-h112-p-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEwThd-vixvHQ8Va_gq3-8PA6w8g06PPw2KOh1vsbSr9rPfNwod4ABl0bKjLpmVW0B50_NVnvmpAvMSWcQjnQEm_TqSru3zSUuAs7xkHFz4D8RPxqRiF1gEabvWZIx7DlQr6G58gg=w112-h112-p-k-no"
+      ],
+      "url": "https://www.google.com/maps/place/Ph%E1%BB%9F+Vi%E1%BB%87t+Nam/data=!4m7!3m6!1s0x31752fba354e2425:0xa794a1a48ee7a0ca!8m2!3d10.771386!4d106.6961339!16s%2Fg%2F11sbfdzrgc!19sChIJJSRONbovdTERyqDnjqShlKc?authuser=0&hl=en&rclk=1",
+      "district": "Quận 1"
+    },
+    {
+      "source_id": "https:__www_google_com_maps_place_Ph_E1_BB_9F_Ph_C3_BA_V_C6_B0_C6_A1ng_data__4m7_3m6_1s0x31752f3fe8f7e83d:0xc9d55225beeb91f_8m2_3d10_7682808_4d106_6986019_16s_2Fg_2F11bzr66btd_19sC",
+      "name": "Phở Phú Vương",
+      "address": "120 Nguyễn Thái Bình, Bến Thành, Hồ Chí Minh, Vietnam",
+      "lat": null,
+      "lng": null,
+      "rating": 4.3,
+      "review_count": 2914,
+      "phone": "+84 931 959 696",
+      "website": "https://www.now.vn/ho-chi-minh/phu-vuong-quan-pho",
+      "image_urls": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF2EdYj9x93PXqE0U3uj-Ar9PpCk2i1-JTRAUK3CG4uM2cHHU5sT6p0lWfR2CTbvEIMSlTyWjQJ0RLw5AYqYC5ZAOe8xIrETzNMJoBqxf3KpJY-gIJhoKzOyWbZWQdBFU1wSIwAVcCazF4=w32-h32-p-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF2EdYj9x93PXqE0U3uj-Ar9PpCk2i1-JTRAUK3CG4uM2cHHU5sT6p0lWfR2CTbvEIMSlTyWjQJ0RLw5AYqYC5ZAOe8xIrETzNMJoBqxf3KpJY-gIJhoKzOyWbZWQdBFU1wSIwAVcCazF4=w408-h307-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGNvUibx2QjV7NepnMT_2NjbktQQe5r6X3laZzqt1Kf6V0c9_OjyjB42mHq_3Pr9WW954_7I-nlwsLZQhKwxQUvgayNJMxtDfk57yAGcFi2BHb6z7knPErXFltLHvXcSgasx1l9R1x5qd5j=w112-h112-p-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFTv1eyEgw6MMMhx5jnuvlCgElhNPy09UQTlBX7OVXQ_5VSADxPSewTLxDu-BDIgwrCO0s0qSBsudW1OCE_ibTR91KzPKRcGlX0JyW77POSm7sPnbpJ5EBKC83d9RzyBVraoyhL=w112-h112-p-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAH8pNRvxA2uqtmwHIU3tCi1r27-Llb3ORe4p6oHP0l8MLkqMxXgPcD2hgcCWtW5WzAxPghQJ3nNb-YnYRXR-pVQr_SvGR6H6WVesU81Dt5GKGoB8OdYht9qRxytBrwRzYpne7Pw-w=w112-h112-p-k-no"
+      ],
+      "url": "https://www.google.com/maps/place/Ph%E1%BB%9F+Ph%C3%BA+V%C6%B0%C6%A1ng/data=!4m7!3m6!1s0x31752f3fe8f7e83d:0xc9d55225beeb91f!8m2!3d10.7682808!4d106.6986019!16s%2Fg%2F11bzr66btd!19sChIJPej36D8vdTERH7nuWyJVnQw?authuser=0&hl=en&rclk=1",
+      "district": "Quận 1"
+    },
+    {
+      "source_id": "https:__www_google_com_maps_place_Ph_E1_BB_9F_Ph_C6_B0_E1_BB_A3ng_data__4m7_3m6_1s0x31752945b4a30467:0x7c42e467e06eead6_8m2_3d10_7919219_4d106_7044668_16s_2Fg_2F11mb0gh4z__19sChIJZ",
+      "name": "Phở Phượng",
+      "address": "25 Hoàng Sa, Sài Gòn, Hồ Chí Minh, Vietnam",
+      "lat": null,
+      "lng": null,
+      "rating": 4.2,
+      "review_count": 1043,
+      "phone": "+84 28 3910 2422",
+      "website": null,
+      "image_urls": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAH94NGzfVCltIFl5Qq2So_qVQqlZdFGEHIKy_JNnUu1GR0_vNczMDubMOqMkc5ne66Ws2EuzhazI_bDOz-9wY-IBAmcVz133hCc6yoykSzEaYsdhFwJI7IbCG8sV9-jQf4lkLqqdZR0WMM=w32-h32-p-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAH94NGzfVCltIFl5Qq2So_qVQqlZdFGEHIKy_JNnUu1GR0_vNczMDubMOqMkc5ne66Ws2EuzhazI_bDOz-9wY-IBAmcVz133hCc6yoykSzEaYsdhFwJI7IbCG8sV9-jQf4lkLqqdZR0WMM=w408-h544-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFO5CJAJ6xx6fd2h6duU30fq3zhHFFIVa_hFC-wOFAibUquF6VM_EizG6oPIFj2YLZr-OcQ1YcBVmdKgxU3EtjzjLxV82KzhE9VZRjSZ2k6KEqOo4wKLPLtVvey8mBk7f2fQ5E-NlsGnFs=w112-h112-p-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGeGFU0JJbcMNce7bmY1T0nTGX832viOx-ZZgNkTbvN91sXq3UfOZXGu8eW0rmRDc6BQOSHHng4U69w5RaK_HczpMw4xHTa9gDJLbOh24wljEz4WPwl28JyUqO338piNxKZd_hV=w112-h112-p-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEg7bEHVJxcr3Z4NzHa3rXIkDSUVXHVO3Tqv7UOsT2ttuy0SmfE2Fh39yXcAhIFvwFogMjgohNW9hsZxrkzE4OZsvzh5ApWAryWsaT_WgqF_RZb7yHzRosxEvKWrzCRMcXGnPo=w112-h112-p-k-no"
+      ],
+      "url": "https://www.google.com/maps/place/Ph%E1%BB%9F+Ph%C6%B0%E1%BB%A3ng/data=!4m7!3m6!1s0x31752945b4a30467:0x7c42e467e06eead6!8m2!3d10.7919219!4d106.7044668!16s%2Fg%2F11mb0gh4z_!19sChIJZwSjtEUpdTER1upu4GfkQnw?authuser=0&hl=en&rclk=1",
+      "district": "Quận 1"
+    },
+    {
+      "source_id": "https:__www_google_com_maps_place_Ph_E1_BB_9F_D_E1_BA_ADu_data__4m7_3m6_1s0x31752f3c40ff3371:0x75b027bf94446206_8m2_3d10_7898196_4d106_6850666_16s_2Fg_2F11m2w6m2m1_19sChIJcTP_QDwvd",
+      "name": "Phở Dậu",
+      "address": "288 M1, 288J1 Nam Kỳ Khởi Nghĩa, Ward 8, Xuân Hòa, Hồ Chí Minh 700000, Vietnam",
+      "lat": null,
+      "lng": null,
+      "rating": 4.2,
+      "review_count": 1083,
+      "phone": "+84 28 3846 5866",
+      "website": null,
+      "image_urls": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHjGeSA9IDHj8aECyIkGxzENi0TID49DNJX1gj29-xOohh9BoqxG5K2HtjSE_CXCuhaaeZuWHsC-44WPxGvhpQ-4KGYx1hHVEc-8XYmtePFnUEv2mbI6xY0quBEUhW5O2CS-x2D=w32-h32-p-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHjGeSA9IDHj8aECyIkGxzENi0TID49DNJX1gj29-xOohh9BoqxG5K2HtjSE_CXCuhaaeZuWHsC-44WPxGvhpQ-4KGYx1hHVEc-8XYmtePFnUEv2mbI6xY0quBEUhW5O2CS-x2D=w408-h306-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG0j-v0i72HNruuBc0abzbUDlWMR8xeTSD7Q3bzBCq8H2qspD8-ipFlnnKTwGFRwUsj99JsqIzvMQa8SiQcnYrI0AHEsV1X0z3tr8kiSd7cGknVm_-iF2BRoYjDVNUGEkPj4fxgi4ly4mWK=w112-h112-p-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEXc5wwU2qEap8gVb_yU8rfUGqV3R1OgIF5-jlPuHI_S2kKBMmn68nvMzQUU3jCgGp5h8fhOCn3fPYvuUa-s8biME-2NyAjBrNkntJHvEmWtEugdP_KtwJRuHMJACcjPK7l-yI7_A=w112-h112-p-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHPiPMzkgR5Z2v2VkY_Ry62r9hIW8zLEpeAQ_j5wzrdO-k1e0ojTQT47PlT8A8VIzrA3bL9ByqEi23qvX5_vt_n36DEOpjaSMsVgn4xMC5O0jHePSIDJg4rgNaFVECPC3RY_8U0=w112-h112-p-k-no"
+      ],
+      "url": "https://www.google.com/maps/place/Ph%E1%BB%9F+D%E1%BA%ADu/data=!4m7!3m6!1s0x31752f3c40ff3371:0x75b027bf94446206!8m2!3d10.7898196!4d106.6850666!16s%2Fg%2F11m2w6m2m1!19sChIJcTP_QDwvdTERBmJElL8nsHU?authuser=0&hl=en&rclk=1",
+      "district": "Quận 1"
+    },
+    {
+      "source_id": "https:__www_google_com_maps_place_Ph_E1_BB_9F_S_E1_BB_91_1_H_C3_A0_N_E1_BB_99i_data__4m7_3m6_1s0x31752f4a0b1dee23:0x43a6a9aef02a8f52_8m2_3d10_7848418_4d106_7000801_16s_2Fg_2F11cmh0",
+      "name": "Phở Số 1 Hà Nội",
+      "address": "19 Nguyễn Thị Minh Khai, Sài Gòn, Hồ Chí Minh, Vietnam",
+      "lat": null,
+      "lng": null,
+      "rating": 3.9,
+      "review_count": 439,
+      "phone": null,
+      "website": "https://www.foody.vn/ho-chi-minh/pho-so-1-ha-noi",
+      "image_urls": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHMOh8SDGkP-uL_ATFIzwTudxBQu2CFlzszsMTO0Mc-P47o7S8D1AdXvhOKI2PCW0aJTo9gK9QTs5lOL9sSOooidwD0MtRjvBIDauerZQs3zj56lI7k-1Am1WuTScJmSGJ_QRN1mGFahPEw=w32-h32-p-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHMOh8SDGkP-uL_ATFIzwTudxBQu2CFlzszsMTO0Mc-P47o7S8D1AdXvhOKI2PCW0aJTo9gK9QTs5lOL9sSOooidwD0MtRjvBIDauerZQs3zj56lI7k-1Am1WuTScJmSGJ_QRN1mGFahPEw=w426-h240-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE88T6ZsH5ULcc5vvBtSP4RZApciIxYYTraM1tN-9uwVN_nDrw4zUk2xVkWoNUeNDcmSEZrB1xilO-hoC6P6zWIZ54fv_ZEgtq9bl-vUMxjknwnEgRfqH-Yg0tXjZogpcaWKbd_=w112-h112-p-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEwB1JGySjh1PCR-8JHhB_g9kDFM23ejLobrD01zFj_1nisb_METNmtpAEZI_tZR4cA7CXpGOMlj8BnuuqEaYvdDZVH4fxDD0JTq606UxmjWeJ0CXguLbbfjz5jwRi3ukAHQCyr=w112-h112-p-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFjidOEHTRdx5scZ8VZ6FauIDgFMX6C8uNNBq6bvz8ljUv_a-7uNRFqChVgc6-Ec4O9hWjOYbLkmjKVcG2IGxXx003FDkBZZH48xEOlyNYB5HL9PBQMeARrt2wCgq38jeHi2iR3=w112-h112-p-k-no"
+      ],
+      "url": "https://www.google.com/maps/place/Ph%E1%BB%9F+S%E1%BB%91+1+H%C3%A0+N%E1%BB%99i/data=!4m7!3m6!1s0x31752f4a0b1dee23:0x43a6a9aef02a8f52!8m2!3d10.7848418!4d106.7000801!16s%2Fg%2F11cmh011__!19sChIJI-4dC0ovdTERUo8q8K6ppkM?authuser=0&hl=en&rclk=1",
+      "district": "Quận 1"
+    },
+    {
+      "source_id": "https:__www_google_com_maps_place_Saigon_Japan_Town_data__4m7_3m6_1s0x31752f48cf3c7265:0xd3bba610945c3f32_8m2_3d10_7793695_4d106_7047033_16s_2Fg_2F11cllprvly_19sChIJZXI8z0gvdTERMj9",
+      "name": "Saigon Japan Town",
+      "address": "8A Thái Văn Lung, Sài Gòn, Hồ Chí Minh 700000, Vietnam",
+      "lat": null,
+      "lng": null,
+      "rating": 4.3,
+      "review_count": 2394,
+      "phone": null,
+      "website": "https://www.facebook.com/japantownsaigon/",
+      "image_urls": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGt1IpDwJLoDRNeRdkvv-V0WJU3hNuhMrKUQlMwk0V5VQZJNggHaxvi4Rhfb371VVc7yAF6MoaDlPDR0ejQKa4IBqAZm1F1H7shjF4YhTO45J3eo6xGjx8NDtkO9vACsmMwIUgmWYrJBBu7=w32-h32-p-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGt1IpDwJLoDRNeRdkvv-V0WJU3hNuhMrKUQlMwk0V5VQZJNggHaxvi4Rhfb371VVc7yAF6MoaDlPDR0ejQKa4IBqAZm1F1H7shjF4YhTO45J3eo6xGjx8NDtkO9vACsmMwIUgmWYrJBBu7=w408-h306-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGt1IpDwJLoDRNeRdkvv-V0WJU3hNuhMrKUQlMwk0V5VQZJNggHaxvi4Rhfb371VVc7yAF6MoaDlPDR0ejQKa4IBqAZm1F1H7shjF4YhTO45J3eo6xGjx8NDtkO9vACsmMwIUgmWYrJBBu7=w397-h298-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFtKwqvto5tf88JC-3Ejw2u4JVRj0Hs2xiROfAp9ix2knoP_E5JzY-y-0-l1dQS2H4nU82OgogTHbwxPEOYBP_Fi0axQftZbBNha3OZTOYjUbBQQwzPT7EkNjnWi9Y7Cn5FA1JfZ8UPzjgC=w224-h398-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHiQmTvodyo679B6TiBwfuW0jnU-SYBOySsNMlcUHsU6GbIM5qCZwlDWM0jDehjthEeYIXTd48r0wzjTo8Ga3nNTuW_S0cVu_WW2apTESKzwG4g2ykK6BtKEqEDjO67QI835eyCDw=w529-h298-k-no"
+      ],
+      "url": "https://www.google.com/maps/place/Saigon+Japan+Town/data=!4m7!3m6!1s0x31752f48cf3c7265:0xd3bba610945c3f32!8m2!3d10.7793695!4d106.7047033!16s%2Fg%2F11cllprvly!19sChIJZXI8z0gvdTERMj9clBCmu9M?authuser=0&hl=en&rclk=1",
+      "district": "Quận 1"
+    },
+    {
+      "source_id": "https:__www_google_com_maps_place_X_C6_B0_E1_BB_9Fng_Ph_E1_BB_9F_118_-_L_E1_BA_A9u_B_C3_B2_data__4m7_3m6_1s0x31752f966be65d47:0x344d9333f4396449_8m2_3d10_7700282_4d106_6935024_16s_",
+      "name": "Xưởng Phở 118 - Lẩu Bò",
+      "address": "94-96 Lê Lai, Bến Thành, Hồ Chí Minh 700000, Vietnam",
+      "lat": null,
+      "lng": null,
+      "rating": 4.6,
+      "review_count": 546,
+      "phone": "+84 938 838 012",
+      "website": null,
+      "image_urls": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEFVNfnVg0uRQ18rXkxx4FlT9aMc16F4sloVaSjuBD02EBR0_V8jMVsRWHed7CREH1PKWBzARgoLPglxrqwl5_sPCsvnfwMrq6H-7PMdNYgfHdeJdsUlNVKidZKKgFhDSnfLCOyRw=w32-h32-p-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEFVNfnVg0uRQ18rXkxx4FlT9aMc16F4sloVaSjuBD02EBR0_V8jMVsRWHed7CREH1PKWBzARgoLPglxrqwl5_sPCsvnfwMrq6H-7PMdNYgfHdeJdsUlNVKidZKKgFhDSnfLCOyRw=w408-h408-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEFdosSeqMhsfo11n3V9zqtMrJ3GRv1Cq0pXnR3UbGFVe4LkO7nJPHRmPyakqyHEnJG-uifIRDD5CPjRWKEMeQck_M-GEisP_htU94IrikyUOPKXO5fpp_g23VkUcKrsnNzO0rmwA=w112-h112-p-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGLGC3TdcTnAgVbFCsXt1c517Pjb7s09nl9ZF6p5m5yPQtaoL4mpo0h5xrp7UBQCmK8cQywQv7-jKxJXK-X753FsIF-N9fkk1CGyPcczBoY4-qt-cvcf8LJF_x23-rrU-BIjecKVw=w112-h112-p-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGIUfURiXDHu7JEa6AkN6TLEfbY1JUT61FApO-ku0Jp35mPsIEgkJ4bHlcn0nEcozDYYukLzU3X2hXWxCM2LXu8q-wm2oEF79qvkc2d1ZjuKea8s9UZflT3XLhq3wP3slFCbB4I=w112-h112-p-k-no"
+      ],
+      "url": "https://www.google.com/maps/place/X%C6%B0%E1%BB%9Fng+Ph%E1%BB%9F+118+-+L%E1%BA%A9u+B%C3%B2/data=!4m7!3m6!1s0x31752f966be65d47:0x344d9333f4396449!8m2!3d10.7700282!4d106.6935024!16s%2Fg%2F11tnrpv3vd!19sChIJR13ma5YvdTERSWQ59DOTTTQ?authuser=0&hl=en&rclk=1",
+      "district": "Quận 1"
+    },
+    {
+      "source_id": "https:__www_google_com_maps_place_Saigon_Pho_39_data__4m7_3m6_1s0x31752f0cca989b2f:0x9403fbee58eb44ac_8m2_3d10_7752423_4d106_7045645_16s_2Fg_2F11jsztskwh_19sChIJL5uYygwvdTERrETrWO7",
+      "name": "Saigon Pho 39",
+      "address": "Saigon ward, 54 Mạc Thị Bưởi, Sài Gòn, Hồ Chí Minh 71000, Vietnam",
+      "lat": null,
+      "lng": null,
+      "rating": 4.2,
+      "review_count": 1168,
+      "phone": "+84 923 086 838",
+      "website": "http://saigonpho39.com/",
+      "image_urls": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHIug0eeROw-vqeSgiJsh4tJzvHiIj74OiNqD8Dyhg2YPb9uJZuotcrRavCSNo0DeDyYMzKbrSm1Q8IcQXlqICIrh1mLbCNJuPZPqxtdtOJDhJtrZz_E7wvXCySgJcQLoV8lcR5sOlNye1M=w32-h32-p-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHIug0eeROw-vqeSgiJsh4tJzvHiIj74OiNqD8Dyhg2YPb9uJZuotcrRavCSNo0DeDyYMzKbrSm1Q8IcQXlqICIrh1mLbCNJuPZPqxtdtOJDhJtrZz_E7wvXCySgJcQLoV8lcR5sOlNye1M=w408-h297-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFWS1XmTDZnKNzCh56KdTbeJ_5HSuGRFtn3FfjrAh-O_6y-LprkqjI6-dYnsSI5lgHwhOFdSb1pP2MZXAumYpVeXP8ZJ4pJSkFNWhVKH-dhCZ-CBEZr7ozbuY5xiS0yjwJ9BC5s8qvIEs0=w112-h112-p-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGCgIIWkcP1RWib3dITpkGCdbhH3-2p5yY8x_3_e_JFPzyxsxl49Mr6FeJT6tSWB-Z6xSobntDz6Er4wUUDyfZcIR8_8jrUSQKE2lYVbkysSGFJhHe5EmiS985QCdLqWfOi2K8=w112-h112-p-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFVPSWmTocYHxZPMsTgDxXdLcBr_9a_Pn8BHfGv226nW27zqT_7SlFy_BemrnOhI3v0w-7B9EQjec9-NsKEFxlf13ElaL0885ERSt1wuEfDvLchMqHwgnz1vNwF9fLsE8zZFJaABQ=w112-h112-p-k-no"
+      ],
+      "url": "https://www.google.com/maps/place/Saigon+Pho+39/data=!4m7!3m6!1s0x31752f0cca989b2f:0x9403fbee58eb44ac!8m2!3d10.7752423!4d106.7045645!16s%2Fg%2F11jsztskwh!19sChIJL5uYygwvdTERrETrWO77A5Q?authuser=0&hl=en&rclk=1",
+      "district": "Quận 1"
+    },
+    {
+      "source_id": "https:__www_google_com_maps_place_B_C3_A1nh_M_C3_AC_611_-_Banh_Mi_in_Ho_Chi_Minh_district_1_data__4m7_3m6_1s0x31752f3d55492d67:0x84d6f51c98162ed7_8m2_3d10_7667448_4d106_6905046_16s",
+      "name": "Bánh Mì 611 - Banh Mi in Ho Chi Minh district 1",
+      "address": "353/13 Phạm Ngũ Lão, Bến Thành, Hồ Chí Minh 71012, Vietnam",
+      "lat": null,
+      "lng": null,
+      "rating": 4.8,
+      "review_count": 190,
+      "phone": "+84 865 614 611",
+      "website": "https://sites.google.com/view/banhmi611/",
+      "image_urls": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGNgQd7KgnNgXDBp70PQn_Gp6YdJxb1Xkk58dSaKB3Cdpt_gKmKHUHz6dlBj7_JqVR32_4SDxhmTcatnWULTaNhqZug7OfgGGFVCnNStYYyZjje7lep8-pu6rrMXDRtviCiEfeQtppefvoe=w32-h32-p-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGNgQd7KgnNgXDBp70PQn_Gp6YdJxb1Xkk58dSaKB3Cdpt_gKmKHUHz6dlBj7_JqVR32_4SDxhmTcatnWULTaNhqZug7OfgGGFVCnNStYYyZjje7lep8-pu6rrMXDRtviCiEfeQtppefvoe=w408-h451-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGIvN7pe9jgqxrRmCF9PNJuTC3S8eFvyRdr1BMbDwqmwhMgZI9FHX7nSHNl_-m7LVvlagExeglYhFOkHi-YcvMjOn4pl7BPPH3eLD2vUtQTSLLtPhctBkCO9LMwIe2q_eKM-XwU5qflho8o=w112-h112-p-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEQm-8j8WHxX2CvmVGr7TjRJzj227phHJ3wFZwXmrHyr1rtClEuQ3Ob1crqgw9wxTfz_k5BVFGXnayiOh1wf6YFw0VHHOaEMl_cDa3VPoCwa-5M7xzjO8t6OMG2OMeQ7i7X651mbA=w112-h112-p-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHJ-3wd-ma0aEwkECR8l18zmteNErCwuRVdLBmxYMSqO0_kcl3blCVzNbJ5AOyb01kwPinAHFd2qfEz0VQT84Dp4OYe9fz4AFv-thBkCo6p-3CMzGt8EUxvhvWjFk-njaxG3tAtRg=w112-h112-p-k-no"
+      ],
+      "url": "https://www.google.com/maps/place/B%C3%A1nh+M%C3%AC+611+-+Banh+Mi+in+Ho+Chi+Minh+district+1/data=!4m7!3m6!1s0x31752f3d55492d67:0x84d6f51c98162ed7!8m2!3d10.7667448!4d106.6905046!16s%2Fg%2F11nnv_7gvd!19sChIJZy1JVT0vdTER1y4WmBz11oQ?authuser=0&hl=en&rclk=1",
+      "district": "Quận 1"
+    }
+  ],
+  "reviews": [
+    {
+      "author_name": "MsOmNom",
+      "rating": 5,
+      "review_text": "⭐️⭐️⭐️⭐️⭐️ 5/5 — Authentic pho, Michelin-recognised for a reason\n\nVisited Phở Hùng near Ben Thanh Market in Ho Chi Minh City, and it absolutely …",
+      "published_time": "4 months ago"
+    },
+    {
+      "author_name": "MsOmNom",
+      "rating": 5,
+      "review_text": "⭐️⭐️⭐️⭐️⭐️ 5/5 — Authentic pho, Michelin-recognised for a reason\n\nVisited Phở Hùng near Ben Thanh Market in Ho Chi Minh City, and it absolutely …",
+      "published_time": "4 months ago"
+    },
+    {
+      "author_name": "MsOmNom",
+      "rating": null,
+      "review_text": null,
+      "published_time": null
+    },
+    {
+      "author_name": "CHRIZ Sh0p",
+      "rating": 5,
+      "review_text": "If you ever come to Ho Chi Minh City, I really hope you give this beef noodle shop a chance. It’s located in District 1, so it’s very convenient to visit.\nThe pricing is reasonable and the portions are generous. The soup base is clear …",
+      "published_time": "3 months ago"
+    },
+    {
+      "author_name": "CHRIZ Sh0p",
+      "rating": 5,
+      "review_text": "If you ever come to Ho Chi Minh City, I really hope you give this beef noodle shop a chance. It’s located in District 1, so it’s very convenient to visit.\nThe pricing is reasonable and the portions are generous. The soup base is clear …",
+      "published_time": "3 months ago"
+    },
+    {
+      "author_name": "CHRIZ Sh0p",
+      "rating": null,
+      "review_text": null,
+      "published_time": null
+    },
+    {
+      "author_name": "Anupong Wongkulluck",
+      "rating": 5,
+      "review_text": "Big and famous Pho restaurant with mostly visited by locals. Soup in chicken and beef Pho are different but both are tasty. The chicken meat is quite dried and chewy. Beef and meat ball are delicious. If you have to pick chicken or beef, …",
+      "published_time": "4 months ago"
+    },
+    {
+      "author_name": "Anupong Wongkulluck",
+      "rating": 5,
+      "review_text": "Big and famous Pho restaurant with mostly visited by locals. Soup in chicken and beef Pho are different but both are tasty. The chicken meat is quite dried and chewy. Beef and meat ball are delicious. If you have to pick chicken or beef, …",
+      "published_time": "4 months ago"
+    },
+    {
+      "author_name": "Anupong Wongkulluck",
+      "rating": null,
+      "review_text": null,
+      "published_time": null
+    },
+    {
+      "author_name": "John Your Mate",
+      "rating": 4,
+      "review_text": "First Pho in Vietnam on the first day and it was great. I’ve had it before in the UK but this was way, way better. Lots of locals, friends and families eating. I had the house special Pho with all the beef bits in it as the menu is massive …",
+      "published_time": "3 months ago"
+    },
+    {
+      "author_name": "John Your Mate",
+      "rating": 4,
+      "review_text": "First Pho in Vietnam on the first day and it was great. I’ve had it before in the UK but this was way, way better. Lots of locals, friends and families eating. I had the house special Pho with all the beef bits in it as the menu is massive …",
+      "published_time": "3 months ago"
+    },
+    {
+      "author_name": "John Your Mate",
+      "rating": null,
+      "review_text": null,
+      "published_time": null
+    },
+    {
+      "author_name": "Yichao Su",
+      "rating": 5,
+      "review_text": "Reminder: This is a cash only establishment and you should bring at least 100k so you could have a pho and a drink. …",
+      "published_time": "2 months ago"
+    },
+    {
+      "author_name": "Yichao Su",
+      "rating": 5,
+      "review_text": "Reminder: This is a cash only establishment and you should bring at least 100k so you could have a pho and a drink. …",
+      "published_time": "2 months ago"
+    },
+    {
+      "author_name": "Yichao Su",
+      "rating": null,
+      "review_text": null,
+      "published_time": null
+    },
+    {
+      "author_name": "주영우",
+      "rating": 5,
+      "review_text": "It was not very special, but it is delicious enought to try beef brisket noodle. They have quite much of quantity inside the bowl. It was good enough to win the hangover. Try the noodle with the fried bread. If I have chance to visit here again, I will do it. And I can introduce here to my friends too.",
+      "published_time": "5 months ago"
+    },
+    {
+      "author_name": "주영우",
+      "rating": 5,
+      "review_text": "It was not very special, but it is delicious enought to try beef brisket noodle. They have quite much of quantity inside the bowl. It was good enough to win the hangover. Try the noodle with the fried bread. If I have chance to visit here again, I will do it. And I can introduce here to my friends too.",
+      "published_time": "5 months ago"
+    },
+    {
+      "author_name": "주영우",
+      "rating": null,
+      "review_text": null,
+      "published_time": null
+    },
+    {
+      "author_name": "Chlotus",
+      "rating": 5,
+      "review_text": "The pho tastes amazing! It comes with a nice mix of greens, just like you'd expect. The soup has a delightful, light flavor that's still rich and satisfying. Each pho restaurant has its own special twist, and I absolutely love exploring them all!",
+      "published_time": "2 months ago"
+    },
+    {
+      "author_name": "Chlotus",
+      "rating": 5,
+      "review_text": "The pho tastes amazing! It comes with a nice mix of greens, just like you'd expect. The soup has a delightful, light flavor that's still rich and satisfying. Each pho restaurant has its own special twist, and I absolutely love exploring them all!",
+      "published_time": "2 months ago"
+    },
+    {
+      "author_name": "Chlotus",
+      "rating": null,
+      "review_text": null,
+      "published_time": null
+    },
+    {
+      "author_name": "Retty Chheang",
+      "rating": 5,
+      "review_text": "I had the all kinds of beef phô and it was great. The service is good and staffs are friendly and helpful. They don't speak English but speak enough just to take the order. I didn't realize their Michelin stars until I left.",
+      "published_time": "5 months ago"
+    },
+    {
+      "author_name": "Retty Chheang",
+      "rating": 5,
+      "review_text": "I had the all kinds of beef phô and it was great. The service is good and staffs are friendly and helpful. They don't speak English but speak enough just to take the order. I didn't realize their Michelin stars until I left.",
+      "published_time": "5 months ago"
+    },
+    {
+      "author_name": "Retty Chheang",
+      "rating": null,
+      "review_text": null,
+      "published_time": null
+    }
+  ],
+  "failures": [
+    {
+      "stage": "db_insert",
+      "error": "(sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedTableError'>: relation \"places\" does not exist\n[SQL: ALTER TABLE places ADD COLUMN IF NOT EXISTS name_normalized VARCHAR(255)]\n(Background on this error at: https://sqlalche.me/e/20/f405)",
+      "trace": "Traceback (most recent call last):\n  File \"C:\\Users\\admin\\AppData\\Roaming\\Python\\Python314\\site-packages\\sqlalchemy\\dialects\\postgresql\\asyncpg.py\", line 550, in _prepare_and_execute\n    self._rows = deque(await prepared_stmt.fetch(*parameters))\n                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\admin\\AppData\\Roaming\\Python\\Python314\\site-packages\\asyncpg\\prepared_stmt.py\", line 177, in fetch\n    data = await self.__bind_execute(args, 0, timeout)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\admin\\AppData\\Roaming\\Python\\Python314\\site-packages\\asyncpg\\prepared_stmt.py\", line 268, in __bind_execute\n    data, status, _ = await self.__do_execute(\n                      ^^^^^^^^^^^^^^^^^^^^^^^^\n        lambda protocol: protocol.bind_execute(\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n            self._state, args, '', limit, True, timeout))\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\admin\\AppData\\Roaming\\Python\\Python314\\site-packages\\asyncpg\\prepared_stmt.py\", line 257, in __do_execute\n    return await executor(protocol)\n           ^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"asyncpg/protocol/protocol.pyx\", line 205, in bind_execute\nasyncpg.exceptions.UndefinedTableError: relation \"places\" does not exist\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"C:\\Users\\admin\\AppData\\Roaming\\Python\\Python314\\site-packages\\sqlalchemy\\engine\\base.py\", line 1967, in _exec_single_context\n    self.dialect.do_execute(\n    ~~~~~~~~~~~~~~~~~~~~~~~^\n        cursor, str_statement, effective_parameters, context\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    )\n    ^\n  File \"C:\\Users\\admin\\AppData\\Roaming\\Python\\Python314\\site-packages\\sqlalchemy\\engine\\default.py\", line 952, in do_execute\n    cursor.execute(statement, parameters)\n    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\admin\\AppData\\Roaming\\Python\\Python314\\site-packages\\sqlalchemy\\dialects\\postgresql\\asyncpg.py\", line 585, in execute\n    self._adapt_connection.await_(\n    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^\n        self._prepare_and_execute(operation, parameters)\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    )\n    ^\n  File \"C:\\Users\\admin\\AppData\\Roaming\\Python\\Python314\\site-packages\\sqlalchemy\\util\\_concurrency_py3k.py\", line 132, in await_only\n    return current.parent.switch(awaitable)  # type: ignore[no-any-return,attr-defined] # noqa: E501\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^\n  File \"C:\\Users\\admin\\AppData\\Roaming\\Python\\Python314\\site-packages\\sqlalchemy\\util\\_concurrency_py3k.py\", line 196, in greenlet_spawn\n    value = await result\n            ^^^^^^^^^^^^\n  File \"C:\\Users\\admin\\AppData\\Roaming\\Python\\Python314\\site-packages\\sqlalchemy\\dialects\\postgresql\\asyncpg.py\", line 563, in _prepare_and_execute\n    self._handle_exception(error)\n    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^\n  File \"C:\\Users\\admin\\AppData\\Roaming\\Python\\Python314\\site-packages\\sqlalchemy\\dialects\\postgresql\\asyncpg.py\", line 513, in _handle_exception\n    self._adapt_connection._handle_exception(error)\n    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^\n  File \"C:\\Users\\admin\\AppData\\Roaming\\Python\\Python314\\site-packages\\sqlalchemy\\dialects\\postgresql\\asyncpg.py\", line 797, in _handle_exception\n    raise translated_error from error\nsqlalchemy.dialects.postgresql.asyncpg.AsyncAdapt_asyncpg_dbapi.ProgrammingError: <class 'asyncpg.exceptions.UndefinedTableError'>: relation \"places\" does not exist\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"C:\\Users\\admin\\Documents\\chatbot_anuong\\apps\\api\\run_crawl_e2e.py\", line 153, in main\n    await ensure_schema(db)\n  File \"C:\\Users\\admin\\Documents\\chatbot_anuong\\apps\\api\\run_crawl_e2e.py\", line 43, in ensure_schema\n    await db.execute(text(\"ALTER TABLE places ADD COLUMN IF NOT EXISTS name_normalized VARCHAR(255)\"))\n  File \"C:\\Users\\admin\\AppData\\Roaming\\Python\\Python314\\site-packages\\sqlalchemy\\ext\\asyncio\\session.py\", line 449, in execute\n    result = await greenlet_spawn(\n             ^^^^^^^^^^^^^^^^^^^^^\n    ...<6 lines>...\n    )\n    ^\n  File \"C:\\Users\\admin\\AppData\\Roaming\\Python\\Python314\\site-packages\\sqlalchemy\\util\\_concurrency_py3k.py\", line 201, in greenlet_spawn\n    result = context.throw(*sys.exc_info())\n  File \"C:\\Users\\admin\\AppData\\Roaming\\Python\\Python314\\site-packages\\sqlalchemy\\orm\\session.py\", line 2351, in execute\n    return self._execute_internal(\n           ~~~~~~~~~~~~~~~~~~~~~~^\n        statement,\n        ^^^^^^^^^^\n    ...<4 lines>...\n        _add_event=_add_event,\n        ^^^^^^^^^^^^^^^^^^^^^^\n    )\n    ^\n  File \"C:\\Users\\admin\\AppData\\Roaming\\Python\\Python314\\site-packages\\sqlalchemy\\orm\\session.py\", line 2258, in _execute_internal\n    result = conn.execute(\n        statement, params or {}, execution_options=execution_options\n    )\n  File \"C:\\Users\\admin\\AppData\\Roaming\\Python\\Python314\\site-packages\\sqlalchemy\\engine\\base.py\", line 1419, in execute\n    return meth(\n        self,\n        distilled_parameters,\n        execution_options or NO_OPTIONS,\n    )\n  File \"C:\\Users\\admin\\AppData\\Roaming\\Python\\Python314\\site-packages\\sqlalchemy\\sql\\elements.py\", line 527, in _execute_on_connection\n    return connection._execute_clauseelement(\n           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^\n        self, distilled_params, execution_options\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    )\n    ^\n  File \"C:\\Users\\admin\\AppData\\Roaming\\Python\\Python314\\site-packages\\sqlalchemy\\engine\\base.py\", line 1641, in _execute_clauseelement\n    ret = self._execute_context(\n        dialect,\n    ...<8 lines>...\n        cache_hit=cache_hit,\n    )\n  File \"C:\\Users\\admin\\AppData\\Roaming\\Python\\Python314\\site-packages\\sqlalchemy\\engine\\base.py\", line 1846, in _execute_context\n    return self._exec_single_context(\n           ~~~~~~~~~~~~~~~~~~~~~~~~~^\n        dialect, context, statement, parameters\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    )\n    ^\n  File \"C:\\Users\\admin\\AppData\\Roaming\\Python\\Python314\\site-packages\\sqlalchemy\\engine\\base.py\", line 1986, in _exec_single_context\n    self._handle_dbapi_exception(\n    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^\n        e, str_statement, effective_parameters, cursor, context\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    )\n    ^\n  File \"C:\\Users\\admin\\AppData\\Roaming\\Python\\Python314\\site-packages\\sqlalchemy\\engine\\base.py\", line 2363, in _handle_dbapi_exception\n    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e\n  File \"C:\\Users\\admin\\AppData\\Roaming\\Python\\Python314\\site-packages\\sqlalchemy\\engine\\base.py\", line 1967, in _exec_single_context\n    self.dialect.do_execute(\n    ~~~~~~~~~~~~~~~~~~~~~~~^\n        cursor, str_statement, effective_parameters, context\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    )\n    ^\n  File \"C:\\Users\\admin\\AppData\\Roaming\\Python\\Python314\\site-packages\\sqlalchemy\\engine\\default.py\", line 952, in do_execute\n    cursor.execute(statement, parameters)\n    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\admin\\AppData\\Roaming\\Python\\Python314\\site-packages\\sqlalchemy\\dialects\\postgresql\\asyncpg.py\", line 585, in execute\n    self._adapt_connection.await_(\n    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^\n        self._prepare_and_execute(operation, parameters)\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    )\n    ^\n  File \"C:\\Users\\admin\\AppData\\Roaming\\Python\\Python314\\site-packages\\sqlalchemy\\util\\_concurrency_py3k.py\", line 132, in await_only\n    return current.parent.switch(awaitable)  # type: ignore[no-any-return,attr-defined] # noqa: E501\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^\n  File \"C:\\Users\\admin\\AppData\\Roaming\\Python\\Python314\\site-packages\\sqlalchemy\\util\\_concurrency_py3k.py\", line 196, in greenlet_spawn\n    value = await result\n            ^^^^^^^^^^^^\n  File \"C:\\Users\\admin\\AppData\\Roaming\\Python\\Python314\\site-packages\\sqlalchemy\\dialects\\postgresql\\asyncpg.py\", line 563, in _prepare_and_execute\n    self._handle_exception(error)\n    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^\n  File \"C:\\Users\\admin\\AppData\\Roaming\\Python\\Python314\\site-packages\\sqlalchemy\\dialects\\postgresql\\asyncpg.py\", line 513, in _handle_exception\n    self._adapt_connection._handle_exception(error)\n    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^\n  File \"C:\\Users\\admin\\AppData\\Roaming\\Python\\Python314\\site-packages\\sqlalchemy\\dialects\\postgresql\\asyncpg.py\", line 797, in _handle_exception\n    raise translated_error from error\nsqlalchemy.exc.ProgrammingError: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedTableError'>: relation \"places\" does not exist\n[SQL: ALTER TABLE places ADD COLUMN IF NOT EXISTS name_normalized VARCHAR(255)]\n(Background on this error at: https://sqlalche.me/e/20/f405)\n"
+    }
+  ],
+  "place_urls": [
+    "https://www.google.com/maps/place/Pho+Hung/data=!4m7!3m6!1s0x31752f19d15e3a81:0xdcd7728d53d90a88!8m2!3d10.7648891!4d106.6877054!16s%2Fg%2F11bwg6pds7!19sChIJgTpe0RkvdTERiArZU41y19w?authuser=0&hl=en&rclk=1",
+    "https://www.google.com/maps/place/Ph%E1%BB%9F+Vi%E1%BB%87t+Nam/data=!4m7!3m6!1s0x31752fba354e2425:0xa794a1a48ee7a0ca!8m2!3d10.771386!4d106.6961339!16s%2Fg%2F11sbfdzrgc!19sChIJJSRONbovdTERyqDnjqShlKc?authuser=0&hl=en&rclk=1",
+    "https://www.google.com/maps/place/Ph%E1%BB%9F+Ph%C3%BA+V%C6%B0%C6%A1ng/data=!4m7!3m6!1s0x31752f3fe8f7e83d:0xc9d55225beeb91f!8m2!3d10.7682808!4d106.6986019!16s%2Fg%2F11bzr66btd!19sChIJPej36D8vdTERH7nuWyJVnQw?authuser=0&hl=en&rclk=1",
+    "https://www.google.com/maps/place/Ph%E1%BB%9F+Ph%C6%B0%E1%BB%A3ng/data=!4m7!3m6!1s0x31752945b4a30467:0x7c42e467e06eead6!8m2!3d10.7919219!4d106.7044668!16s%2Fg%2F11mb0gh4z_!19sChIJZwSjtEUpdTER1upu4GfkQnw?authuser=0&hl=en&rclk=1",
+    "https://www.google.com/maps/place/Ph%E1%BB%9F+D%E1%BA%ADu/data=!4m7!3m6!1s0x31752f3c40ff3371:0x75b027bf94446206!8m2!3d10.7898196!4d106.6850666!16s%2Fg%2F11m2w6m2m1!19sChIJcTP_QDwvdTERBmJElL8nsHU?authuser=0&hl=en&rclk=1",
+    "https://www.google.com/maps/place/Ph%E1%BB%9F+S%E1%BB%91+1+H%C3%A0+N%E1%BB%99i/data=!4m7!3m6!1s0x31752f4a0b1dee23:0x43a6a9aef02a8f52!8m2!3d10.7848418!4d106.7000801!16s%2Fg%2F11cmh011__!19sChIJI-4dC0ovdTERUo8q8K6ppkM?authuser=0&hl=en&rclk=1",
+    "https://www.google.com/maps/place/Saigon+Japan+Town/data=!4m7!3m6!1s0x31752f48cf3c7265:0xd3bba610945c3f32!8m2!3d10.7793695!4d106.7047033!16s%2Fg%2F11cllprvly!19sChIJZXI8z0gvdTERMj9clBCmu9M?authuser=0&hl=en&rclk=1",
+    "https://www.google.com/maps/place/X%C6%B0%E1%BB%9Fng+Ph%E1%BB%9F+118+-+L%E1%BA%A9u+B%C3%B2/data=!4m7!3m6!1s0x31752f966be65d47:0x344d9333f4396449!8m2!3d10.7700282!4d106.6935024!16s%2Fg%2F11tnrpv3vd!19sChIJR13ma5YvdTERSWQ59DOTTTQ?authuser=0&hl=en&rclk=1",
+    "https://www.google.com/maps/place/Saigon+Pho+39/data=!4m7!3m6!1s0x31752f0cca989b2f:0x9403fbee58eb44ac!8m2!3d10.7752423!4d106.7045645!16s%2Fg%2F11jsztskwh!19sChIJL5uYygwvdTERrETrWO77A5Q?authuser=0&hl=en&rclk=1",
+    "https://www.google.com/maps/place/B%C3%A1nh+M%C3%AC+611+-+Banh+Mi+in+Ho+Chi+Minh+district+1/data=!4m7!3m6!1s0x31752f3d55492d67:0x84d6f51c98162ed7!8m2!3d10.7667448!4d106.6905046!16s%2Fg%2F11nnv_7gvd!19sChIJZy1JVT0vdTER1y4WmBz11oQ?authuser=0&hl=en&rclk=1"
+  ],
+  "duration_sec": 78.24,
+  "failure_count": 1,
+  "place_count": 10,
+  "review_count_extracted": 24,
+  "db_insert_failure": {
+    "error": "(sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.PostgresSyntaxError'>: syntax error at or near \":\"\n[SQL: SELECT id::text,name,address,lat,lng,rating_google,review_count,source_data->>'source' AS source FROM places WHERE id=ANY(:ids::uuid[])]\n(Background on this error at: https://sqlalche.me/e/20/f405)",
+    "trace": "Traceback (most recent call last):\n  File \"C:\\Users\\admin\\AppData\\Roaming\\Python\\Python314\\site-packages\\sqlalchemy\\dialects\\postgresql\\asyncpg.py\", line 526, in _prepare_and_execute\n    prepared_stmt, attributes = await adapt_connection._prepare(\n                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n        operation, self._invalidate_schema_cache_asof\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    )\n    ^\n  File \"C:\\Users\\admin\\AppData\\Roaming\\Python\\Python314\\site-packages\\sqlalchemy\\dialects\\postgresql\\asyncpg.py\", line 773, in _prepare\n    prepared_stmt = await self._connection.prepare(\n                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n        operation, name=self._prepared_statement_name_func()\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    )\n    ^\n  File \"C:\\Users\\admin\\AppData\\Roaming\\Python\\Python314\\site-packages\\asyncpg\\connection.py\", line 638, in prepare\n    return await self._prepare(\n           ^^^^^^^^^^^^^^^^^^^^\n    ...<4 lines>...\n    )\n    ^\n  File \"C:\\Users\\admin\\AppData\\Roaming\\Python\\Python314\\site-packages\\asyncpg\\connection.py\", line 657, in _prepare\n    stmt = await self._get_statement(\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^\n    ...<5 lines>...\n    )\n    ^\n  File \"C:\\Users\\admin\\AppData\\Roaming\\Python\\Python314\\site-packages\\asyncpg\\connection.py\", line 443, in _get_statement\n    statement = await self._protocol.prepare(\n                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    ...<5 lines>...\n    )\n    ^\n  File \"asyncpg/protocol/protocol.pyx\", line 165, in prepare\nasyncpg.exceptions.PostgresSyntaxError: syntax error at or near \":\"\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"C:\\Users\\admin\\AppData\\Roaming\\Python\\Python314\\site-packages\\sqlalchemy\\engine\\base.py\", line 1967, in _exec_single_context\n    self.dialect.do_execute(\n    ~~~~~~~~~~~~~~~~~~~~~~~^\n        cursor, str_statement, effective_parameters, context\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    )\n    ^\n  File \"C:\\Users\\admin\\AppData\\Roaming\\Python\\Python314\\site-packages\\sqlalchemy\\engine\\default.py\", line 952, in do_execute\n    cursor.execute(statement, parameters)\n    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\admin\\AppData\\Roaming\\Python\\Python314\\site-packages\\sqlalchemy\\dialects\\postgresql\\asyncpg.py\", line 585, in execute\n    self._adapt_connection.await_(\n    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^\n        self._prepare_and_execute(operation, parameters)\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    )\n    ^\n  File \"C:\\Users\\admin\\AppData\\Roaming\\Python\\Python314\\site-packages\\sqlalchemy\\util\\_concurrency_py3k.py\", line 132, in await_only\n    return current.parent.switch(awaitable)  # type: ignore[no-any-return,attr-defined] # noqa: E501\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^\n  File \"C:\\Users\\admin\\AppData\\Roaming\\Python\\Python314\\site-packages\\sqlalchemy\\util\\_concurrency_py3k.py\", line 196, in greenlet_spawn\n    value = await result\n            ^^^^^^^^^^^^\n  File \"C:\\Users\\admin\\AppData\\Roaming\\Python\\Python314\\site-packages\\sqlalchemy\\dialects\\postgresql\\asyncpg.py\", line 563, in _prepare_and_execute\n    self._handle_exception(error)\n    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^\n  File \"C:\\Users\\admin\\AppData\\Roaming\\Python\\Python314\\site-packages\\sqlalchemy\\dialects\\postgresql\\asyncpg.py\", line 513, in _handle_exception\n    self._adapt_connection._handle_exception(error)\n    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^\n  File \"C:\\Users\\admin\\AppData\\Roaming\\Python\\Python314\\site-packages\\sqlalchemy\\dialects\\postgresql\\asyncpg.py\", line 797, in _handle_exception\n    raise translated_error from error\nsqlalchemy.dialects.postgresql.asyncpg.AsyncAdapt_asyncpg_dbapi.ProgrammingError: <class 'asyncpg.exceptions.PostgresSyntaxError'>: syntax error at or near \":\"\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"C:\\Users\\admin\\Documents\\chatbot_anuong\\apps\\api\\insert_saved_crawl.py\", line 36, in main\n    rows=(await db.execute(text(\"SELECT id::text,name,address,lat,lng,rating_google,review_count,source_data->>'source' AS source FROM places WHERE id=ANY(:ids::uuid[])\"), {'ids':inserted})).mappings().all()\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\admin\\AppData\\Roaming\\Python\\Python314\\site-packages\\sqlalchemy\\ext\\asyncio\\session.py\", line 449, in execute\n    result = await greenlet_spawn(\n             ^^^^^^^^^^^^^^^^^^^^^\n    ...<6 lines>...\n    )\n    ^\n  File \"C:\\Users\\admin\\AppData\\Roaming\\Python\\Python314\\site-packages\\sqlalchemy\\util\\_concurrency_py3k.py\", line 201, in greenlet_spawn\n    result = context.throw(*sys.exc_info())\n  File \"C:\\Users\\admin\\AppData\\Roaming\\Python\\Python314\\site-packages\\sqlalchemy\\orm\\session.py\", line 2351, in execute\n    return self._execute_internal(\n           ~~~~~~~~~~~~~~~~~~~~~~^\n        statement,\n        ^^^^^^^^^^\n    ...<4 lines>...\n        _add_event=_add_event,\n        ^^^^^^^^^^^^^^^^^^^^^^\n    )\n    ^\n  File \"C:\\Users\\admin\\AppData\\Roaming\\Python\\Python314\\site-packages\\sqlalchemy\\orm\\session.py\", line 2258, in _execute_internal\n    result = conn.execute(\n        statement, params or {}, execution_options=execution_options\n    )\n  File \"C:\\Users\\admin\\AppData\\Roaming\\Python\\Python314\\site-packages\\sqlalchemy\\engine\\base.py\", line 1419, in execute\n    return meth(\n        self,\n        distilled_parameters,\n        execution_options or NO_OPTIONS,\n    )\n  File \"C:\\Users\\admin\\AppData\\Roaming\\Python\\Python314\\site-packages\\sqlalchemy\\sql\\elements.py\", line 527, in _execute_on_connection\n    return connection._execute_clauseelement(\n           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^\n        self, distilled_params, execution_options\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    )\n    ^\n  File \"C:\\Users\\admin\\AppData\\Roaming\\Python\\Python314\\site-packages\\sqlalchemy\\engine\\base.py\", line 1641, in _execute_clauseelement\n    ret = self._execute_context(\n        dialect,\n    ...<8 lines>...\n        cache_hit=cache_hit,\n    )\n  File \"C:\\Users\\admin\\AppData\\Roaming\\Python\\Python314\\site-packages\\sqlalchemy\\engine\\base.py\", line 1846, in _execute_context\n    return self._exec_single_context(\n           ~~~~~~~~~~~~~~~~~~~~~~~~~^\n        dialect, context, statement, parameters\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    )\n    ^\n  File \"C:\\Users\\admin\\AppData\\Roaming\\Python\\Python314\\site-packages\\sqlalchemy\\engine\\base.py\", line 1986, in _exec_single_context\n    self._handle_dbapi_exception(\n    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^\n        e, str_statement, effective_parameters, cursor, context\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    )\n    ^\n  File \"C:\\Users\\admin\\AppData\\Roaming\\Python\\Python314\\site-packages\\sqlalchemy\\engine\\base.py\", line 2363, in _handle_dbapi_exception\n    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e\n  File \"C:\\Users\\admin\\AppData\\Roaming\\Python\\Python314\\site-packages\\sqlalchemy\\engine\\base.py\", line 1967, in _exec_single_context\n    self.dialect.do_execute(\n    ~~~~~~~~~~~~~~~~~~~~~~~^\n        cursor, str_statement, effective_parameters, context\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    )\n    ^\n  File \"C:\\Users\\admin\\AppData\\Roaming\\Python\\Python314\\site-packages\\sqlalchemy\\engine\\default.py\", line 952, in do_execute\n    cursor.execute(statement, parameters)\n    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\admin\\AppData\\Roaming\\Python\\Python314\\site-packages\\sqlalchemy\\dialects\\postgresql\\asyncpg.py\", line 585, in execute\n    self._adapt_connection.await_(\n    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^\n        self._prepare_and_execute(operation, parameters)\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    )\n    ^\n  File \"C:\\Users\\admin\\AppData\\Roaming\\Python\\Python314\\site-packages\\sqlalchemy\\util\\_concurrency_py3k.py\", line 132, in await_only\n    return current.parent.switch(awaitable)  # type: ignore[no-any-return,attr-defined] # noqa: E501\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^\n  File \"C:\\Users\\admin\\AppData\\Roaming\\Python\\Python314\\site-packages\\sqlalchemy\\util\\_concurrency_py3k.py\", line 196, in greenlet_spawn\n    value = await result\n            ^^^^^^^^^^^^\n  File \"C:\\Users\\admin\\AppData\\Roaming\\Python\\Python314\\site-packages\\sqlalchemy\\dialects\\postgresql\\asyncpg.py\", line 563, in _prepare_and_execute\n    self._handle_exception(error)\n    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^\n  File \"C:\\Users\\admin\\AppData\\Roaming\\Python\\Python314\\site-packages\\sqlalchemy\\dialects\\postgresql\\asyncpg.py\", line 513, in _handle_exception\n    self._adapt_connection._handle_exception(error)\n    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^\n  File \"C:\\Users\\admin\\AppData\\Roaming\\Python\\Python314\\site-packages\\sqlalchemy\\dialects\\postgresql\\asyncpg.py\", line 797, in _handle_exception\n    raise translated_error from error\nsqlalchemy.exc.ProgrammingError: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.PostgresSyntaxError'>: syntax error at or near \":\"\n[SQL: SELECT id::text,name,address,lat,lng,rating_google,review_count,source_data->>'source' AS source FROM places WHERE id=ANY(:ids::uuid[])]\n(Background on this error at: https://sqlalche.me/e/20/f405)\n"
+  }
+}

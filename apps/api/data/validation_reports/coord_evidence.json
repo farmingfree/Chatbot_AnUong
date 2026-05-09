@@ -1,0 +1,19 @@
+{
+  "ok": [
+    {
+      "name": "Pho Hung",
+      "lat": 10.7648891,
+      "lng": 106.6877054,
+      "district": "Quận 1",
+      "issues": []
+    },
+    {
+      "name": "Phở Việt Nam",
+      "lat": 10.771386,
+      "lng": 106.6961339,
+      "district": "Quận 1",
+      "issues": []
+    }
+  ],
+  "issues": []
+}

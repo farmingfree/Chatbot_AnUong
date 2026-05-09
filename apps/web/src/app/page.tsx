@@ -18,7 +18,6 @@ export default function Home() {
 
   const messagesEndRef = useRef<HTMLDivElement>(null);
 
-  // Auto-scroll to bottom
   useEffect(() => {
     messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
   }, [messages, currentStreamingMessage]);
@@ -26,13 +25,13 @@ export default function Home() {
   return (
     <ChatLayout onNewChat={clearSession}>
       {/* Messages List */}
-      <div className="flex-1 overflow-y-auto p-4 space-y-2">
+      <div className="flex-1 overflow-y-auto p-3 sm:p-4 space-y-1 overscroll-contain">
         {messages.length === 0 && (
-          <div className="flex flex-col items-center justify-center h-full text-center">
-            <span className="text-6xl mb-4">🍜</span>
-            <h2 className="text-2xl font-bold mb-2">Ăn gì cũng được</h2>
-            <p className="text-gray-500 dark:text-gray-400 max-w-md">
-              Xin chào! Tôi là trợ lý ẩm thực HCM. Hãy cho tôi biết bạn muốn ăn gì, 
+          <div className="flex flex-col items-center justify-center h-full text-center px-4">
+            <span className="text-5xl sm:text-6xl mb-3 sm:mb-4">🍜</span>
+            <h2 className="text-xl sm:text-2xl font-bold mb-2">Ăn gì cũng được</h2>
+            <p className="text-sm sm:text-base text-gray-500 dark:text-gray-400 max-w-md">
+              Xin chào! Tôi là trợ lý ẩm thực HCM. Hãy cho tôi biết bạn muốn ăn gì,
               ở đâu, budget bao nhiêu — tôi sẽ gợi ý cho bạn!
             </p>
           </div>
@@ -44,10 +43,10 @@ export default function Home() {
 
         {/* Streaming message */}
         {isStreaming && currentStreamingMessage && (
-          <div className="flex justify-start mb-4 animate-fadeIn">
-            <div className="w-full">
-              <div className="bg-gray-100 dark:bg-gray-800 rounded-2xl px-4 py-3">
-                <p className="whitespace-pre-wrap">{currentStreamingMessage}</p>
+          <div className="flex justify-start mb-3 sm:mb-4 animate-fadeIn px-2 sm:px-0">
+            <div className="w-full max-w-full sm:max-w-[90%]">
+              <div className="bg-gray-100 dark:bg-gray-800 rounded-2xl px-3 py-2 sm:px-4 sm:py-3">
+                <p className="whitespace-pre-wrap text-sm sm:text-base break-words">{currentStreamingMessage}</p>
               </div>
             </div>
           </div>

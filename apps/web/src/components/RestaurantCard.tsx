@@ -6,33 +6,33 @@ interface RestaurantCardProps {
 
 export function RestaurantCard({ place }: RestaurantCardProps) {
   return (
-    <div className="border rounded-lg overflow-hidden hover:shadow-lg transition-shadow bg-white dark:bg-gray-800">
+    <div className="border rounded-lg sm:rounded-xl overflow-hidden hover:shadow-lg transition-shadow bg-white dark:bg-gray-800 touch-manipulation">
       {place.image_url && (
         <img
           src={place.image_url}
           alt={place.name}
-          className="w-full h-48 object-cover"
+          className="w-full h-40 sm:h-48 object-cover"
         />
       )}
-      <div className="p-4">
-        <div className="flex items-start justify-between mb-2">
-          <h3 className="font-semibold text-lg">{place.name}</h3>
+      <div className="p-3 sm:p-4">
+        <div className="flex items-start justify-between mb-2 gap-2">
+          <h3 className="font-semibold text-sm sm:text-base lg:text-lg break-words flex-1">{place.name}</h3>
           {place.is_open !== undefined && (
             <span
-              className={`text-xs px-2 py-1 rounded ${
+              className={`text-xs px-2 py-0.5 sm:py-1 rounded whitespace-nowrap shrink-0 ${
                 place.is_open
                   ? 'bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-200'
                   : 'bg-red-100 text-red-800 dark:bg-red-900 dark:text-red-200'
               }`}
             >
-              {place.is_open ? 'Đang mở' : 'Đã đóng'}
+              {place.is_open ? 'Mở' : 'Đóng'}
             </span>
           )}
         </div>
 
-        <p className="text-sm text-gray-600 dark:text-gray-400 mb-2">{place.address}</p>
+        <p className="text-xs sm:text-sm text-gray-600 dark:text-gray-400 mb-2 line-clamp-2 break-words">{place.address}</p>
 
-        <div className="flex items-center gap-3 text-sm">
+        <div className="flex items-center gap-2 sm:gap-3 text-xs sm:text-sm flex-wrap">
           {place.rating && (
             <div className="flex items-center gap-1">
               <span className="text-yellow-500">⭐</span>
@@ -59,11 +59,11 @@ export function RestaurantCard({ place }: RestaurantCardProps) {
         </div>
 
         {place.cuisine_types && place.cuisine_types.length > 0 && (
-          <div className="flex flex-wrap gap-1 mt-2">
+          <div className="flex flex-wrap gap-1 sm:gap-1.5 mt-2">
             {place.cuisine_types.slice(0, 3).map((cuisine, idx) => (
               <span
                 key={idx}
-                className="text-xs px-2 py-1 bg-gray-100 dark:bg-gray-700 rounded-full"
+                className="text-xs px-2 py-0.5 sm:py-1 bg-gray-100 dark:bg-gray-700 rounded-full"
               >
                 {cuisine}
               </span>
@@ -77,7 +77,7 @@ export function RestaurantCard({ place }: RestaurantCardProps) {
 
 export function RestaurantGrid({ places }: { places: PlaceCard[] }) {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 my-4">
+    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-4 my-3 sm:my-4 px-2 sm:px-0">
       {places.map((place) => (
         <RestaurantCard key={place.id} place={place} />
       ))}

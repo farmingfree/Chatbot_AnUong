@@ -10,7 +10,14 @@ sys.path.insert(0, os.path.join(os.path.dirname(__file__), '../'))
 
 from app.database import get_db
 from app.config import settings
-from data_pipeline.sources import GoogleMapsSource, FoodySource, ShopeeFoodSource, ManualSource, OSMSource
+from data_pipeline.sources import (
+    GoogleMapsSource,
+    GoogleMapsPlaywrightSource,
+    FoodySource,
+    ShopeeFoodSource,
+    ManualSource,
+    OSMSource,
+)
 from data_pipeline.processors import Geocoder, Deduplicator
 from data_pipeline.storage import DBWriter
 
@@ -21,6 +28,7 @@ async def run_crawl(source_name: str, **kwargs):
     # Select source
     sources = {
         "google": GoogleMapsSource(),
+        "google_playwright": GoogleMapsPlaywrightSource(),
         "foody": FoodySource(),
         "shopee": ShopeeFoodSource(),
         "manual": ManualSource(),
@@ -95,9 +103,12 @@ async def run_crawl(source_name: str, **kwargs):
 
 def main():
     parser = argparse.ArgumentParser(description="Food Advisor Data Pipeline")
-    parser.add_argument("source", choices=["google", "foody", "shopee", "manual", "osm"],
+    parser.add_argument("source", choices=["google", "google_playwright", "foody", "shopee", "manual", "osm"],
                        help="Data source to crawl from")
     parser.add_argument("--api-key", help="Google Maps API key (for google source)")
+    parser.add_argument("--query", help="Search query (for google_playwright)")
+    parser.add_argument("--max-results", type=int, default=100, help="Max results (for google_playwright)")
+    parser.add_argument("--no-resume", action="store_true", help="Don't resume from checkpoint")
     parser.add_argument("--max-pages", type=int, default=50, help="Max pages (for foody)")
     parser.add_argument("--max-per-district", type=int, default=200, help="Max per district (for shopee)")
     parser.add_argument("--from-file", help="JSON file to import (for manual)")
@@ -112,6 +123,14 @@ def main():
             print("❌ --api-key required for Google Maps source")
             sys.exit(1)
         kwargs["api_key"] = args.api_key
+    elif args.source == "google_playwright":
+        if not args.query:
+            print("❌ --query required for Google Maps Playwright source")
+            print("Example: --query 'pho district 1 hcm'")
+            sys.exit(1)
+        kwargs["query"] = args.query
+        kwargs["max_results"] = args.max_results
+        kwargs["resume"] = not args.no_resume
     elif args.source == "foody":
         kwargs["max_pages"] = args.max_pages
     elif args.source == "shopee":

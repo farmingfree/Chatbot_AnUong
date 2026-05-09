@@ -1,0 +1,466 @@
+{
+  "duration_sec": 289.55,
+  "places_crawled": 24,
+  "places_with_coords": 24,
+  "places_inserted": 24,
+  "reviews_inserted": 0,
+  "db_failures": [],
+  "places": [
+    {
+      "name": "Phở Việt Nam",
+      "address": "14 Phạm Hồng Thái, Bến Thành, Hồ Chí Minh, Vietnam",
+      "lat": 10.771386,
+      "lng": 106.6961339,
+      "rating": null,
+      "review_count": 0,
+      "phone": null,
+      "image_urls": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGu-XLJchHWe3p6NHuvVNGiu9DKsJv3k5Xy4SdZ8Z70qidQ4TlWDotbySxc0t_VgtIrkjWUV3gu5vnBPG83XgSKjUmJFIzRUNDSkZSX37b9zON16helaNnv08kSwrl-i6_AamK4=w32-h32-p-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGu-XLJchHWe3p6NHuvVNGiu9DKsJv3k5Xy4SdZ8Z70qidQ4TlWDotbySxc0t_VgtIrkjWUV3gu5vnBPG83XgSKjUmJFIzRUNDSkZSX37b9zON16helaNnv08kSwrl-i6_AamK4=w408-h306-k-no"
+      ],
+      "url": "https://www.google.com/maps/place/Ph%E1%BB%9F+Vi%E1%BB%87t+Nam/@10.771386,106.6961339,17z/data=!3m1!4b1!4m6!3m5!1s0x31752fba354e2425:0xa794a1a48ee7a0ca!8m2!3d10.771386!4d106.6961339!16s%2Fg%2F11sbfdzrgc?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MDUwNi4wIKXMDSoASAFQAw%3D%3D",
+      "google_place_id": null,
+      "google_cid": "0x31752fba354e2425:0xa794a1a48ee7a0ca",
+      "district": "Quận 1",
+      "reviews": [],
+      "query": "pho district 1 ho chi minh"
+    },
+    {
+      "name": "Pho Hung",
+      "address": "241 - 243 Nguyễn Trãi, Cầu Ông Lãnh, Hồ Chí Minh 700000, Vietnam",
+      "lat": 10.7648891,
+      "lng": 106.6877054,
+      "rating": null,
+      "review_count": 0,
+      "phone": "+84 28 3838 5089",
+      "image_urls": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHC9w8U-xIGfJ3KV355bgyN3hZM2W0516cWKgRTU-5fEelEZXbPl3mQ01pN0PH-_b9gEM1Efr4Z_JCMf6XBOlenR8NXB3YcGzmXpgJM56Aw1eviP-I4xeaI8cj2eewya3HOUdxkYAzk_GTR=w32-h32-p-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHC9w8U-xIGfJ3KV355bgyN3hZM2W0516cWKgRTU-5fEelEZXbPl3mQ01pN0PH-_b9gEM1Efr4Z_JCMf6XBOlenR8NXB3YcGzmXpgJM56Aw1eviP-I4xeaI8cj2eewya3HOUdxkYAzk_GTR=w408-h306-k-no"
+      ],
+      "url": "https://www.google.com/maps/place/Pho+Hung/@10.7648891,106.6877054,17z/data=!3m1!4b1!4m6!3m5!1s0x31752f19d15e3a81:0xdcd7728d53d90a88!8m2!3d10.7648891!4d106.6877054!16s%2Fg%2F11bwg6pds7?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MDUwNi4wIKXMDSoASAFQAw%3D%3D",
+      "google_place_id": null,
+      "google_cid": "0x31752f19d15e3a81:0xdcd7728d53d90a88",
+      "district": "Quận 1",
+      "reviews": [],
+      "query": "pho district 1 ho chi minh"
+    },
+    {
+      "name": "Cao Vân Pho",
+      "address": "25 Mạc Đĩnh Chi, Sài Gòn, Hồ Chí Minh, Vietnam",
+      "lat": 10.7847433,
+      "lng": 106.6992982,
+      "rating": null,
+      "review_count": 0,
+      "phone": "+84 28 3822 0509",
+      "image_urls": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFw9fraPyqhtduFxusKsnmGDXYS4EkA9MyMIC8lwvF-qorNMHSC185RnTdKJGOYSqg_-213GA9jTOrsgaBtZ8koW8TjMdSqNtnre_nirJlpLF7aB5sy0snw9juH0XTjrmPGs-_QGgR2df-c=w32-h32-p-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFw9fraPyqhtduFxusKsnmGDXYS4EkA9MyMIC8lwvF-qorNMHSC185RnTdKJGOYSqg_-213GA9jTOrsgaBtZ8koW8TjMdSqNtnre_nirJlpLF7aB5sy0snw9juH0XTjrmPGs-_QGgR2df-c=w408-h544-k-no"
+      ],
+      "url": "https://www.google.com/maps/place/Cao+V%C3%A2n+Pho/@10.7847433,106.6992982,17z/data=!3m1!4b1!4m6!3m5!1s0x31752f35f19a3ecd:0x58cb02188cf99385!8m2!3d10.7847433!4d106.6992982!16s%2Fg%2F11cl_4grh1?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MDUwNi4wIKXMDSoASAFQAw%3D%3D",
+      "google_place_id": null,
+      "google_cid": "0x31752f35f19a3ecd:0x58cb02188cf99385",
+      "district": "Quận 1",
+      "reviews": [],
+      "query": "pho district 1 ho chi minh"
+    },
+    {
+      "name": "Phở Minh",
+      "address": "63/6 Pasteur, Sài Gòn, Hồ Chí Minh 70000, Vietnam",
+      "lat": 10.774811,
+      "lng": 106.700278,
+      "rating": null,
+      "review_count": 0,
+      "phone": "+84 942 221 945",
+      "image_urls": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEPpLlCscnLGewxH9juQxfbTLZ1AKZKxy0HfrSIj9LlwxevNzoe_7GfM4UMLOx7Wsp5DI0RlRBidr42822-L6IUlqEymbQ42Qt0cWjtbCz3neDBGX5rFN5coUhwHE8a1O7HH2eiDw=w32-h32-p-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEPpLlCscnLGewxH9juQxfbTLZ1AKZKxy0HfrSIj9LlwxevNzoe_7GfM4UMLOx7Wsp5DI0RlRBidr42822-L6IUlqEymbQ42Qt0cWjtbCz3neDBGX5rFN5coUhwHE8a1O7HH2eiDw=w408-h332-k-no"
+      ],
+      "url": "https://www.google.com/maps/place/Ph%E1%BB%9F+Minh/@10.774811,106.700278,17z/data=!3m1!4b1!4m6!3m5!1s0x31752f4764af0cbf:0xec9c126596ecdfa3!8m2!3d10.774811!4d106.700278!16s%2Fg%2F11bwc_z_c2?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MDUwNi4wIKXMDSoASAFQAw%3D%3D",
+      "google_place_id": null,
+      "google_cid": "0x31752f4764af0cbf:0xec9c126596ecdfa3",
+      "district": "Quận 1",
+      "reviews": [],
+      "query": "pho district 1 ho chi minh"
+    },
+    {
+      "name": "Phở Số 1 Hà Nội",
+      "address": "19 Nguyễn Thị Minh Khai, Sài Gòn, Hồ Chí Minh, Vietnam",
+      "lat": 10.7848418,
+      "lng": 106.7000801,
+      "rating": null,
+      "review_count": 0,
+      "phone": null,
+      "image_urls": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHMOh8SDGkP-uL_ATFIzwTudxBQu2CFlzszsMTO0Mc-P47o7S8D1AdXvhOKI2PCW0aJTo9gK9QTs5lOL9sSOooidwD0MtRjvBIDauerZQs3zj56lI7k-1Am1WuTScJmSGJ_QRN1mGFahPEw=w32-h32-p-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHMOh8SDGkP-uL_ATFIzwTudxBQu2CFlzszsMTO0Mc-P47o7S8D1AdXvhOKI2PCW0aJTo9gK9QTs5lOL9sSOooidwD0MtRjvBIDauerZQs3zj56lI7k-1Am1WuTScJmSGJ_QRN1mGFahPEw=w426-h240-k-no"
+      ],
+      "url": "https://www.google.com/maps/place/Ph%E1%BB%9F+S%E1%BB%91+1+H%C3%A0+N%E1%BB%99i/data=!4m7!3m6!1s0x31752f4a0b1dee23:0x43a6a9aef02a8f52!8m2!3d10.7848418!4d106.7000801!16s%2Fg%2F11cmh011__!19sChIJI-4dC0ovdTERUo8q8K6ppkM?authuser=0&hl=en&rclk=1",
+      "google_place_id": "ChIJI-4dC0ovdTERUo8q8K6ppkM",
+      "google_cid": "0x31752f4a0b1dee23:0x43a6a9aef02a8f52",
+      "district": "Quận 1",
+      "reviews": [],
+      "query": "pho district 1 ho chi minh"
+    },
+    {
+      "name": "Phở Phú Vương",
+      "address": "120 Nguyễn Thái Bình, Bến Thành, Hồ Chí Minh, Vietnam",
+      "lat": 10.7682808,
+      "lng": 106.6986019,
+      "rating": null,
+      "review_count": 0,
+      "phone": "+84 931 959 696",
+      "image_urls": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF2EdYj9x93PXqE0U3uj-Ar9PpCk2i1-JTRAUK3CG4uM2cHHU5sT6p0lWfR2CTbvEIMSlTyWjQJ0RLw5AYqYC5ZAOe8xIrETzNMJoBqxf3KpJY-gIJhoKzOyWbZWQdBFU1wSIwAVcCazF4=w32-h32-p-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF2EdYj9x93PXqE0U3uj-Ar9PpCk2i1-JTRAUK3CG4uM2cHHU5sT6p0lWfR2CTbvEIMSlTyWjQJ0RLw5AYqYC5ZAOe8xIrETzNMJoBqxf3KpJY-gIJhoKzOyWbZWQdBFU1wSIwAVcCazF4=w408-h307-k-no"
+      ],
+      "url": "https://www.google.com/maps/place/Ph%E1%BB%9F+Ph%C3%BA+V%C6%B0%C6%A1ng/@10.7682808,106.6986019,17z/data=!3m1!4b1!4m6!3m5!1s0x31752f3fe8f7e83d:0xc9d55225beeb91f!8m2!3d10.7682808!4d106.6986019!16s%2Fg%2F11bzr66btd?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MDUwNi4wIKXMDSoASAFQAw%3D%3D",
+      "google_place_id": null,
+      "google_cid": "0x31752f3fe8f7e83d:0xc9d55225beeb91f",
+      "district": "Quận 1",
+      "reviews": [],
+      "query": "pho district 1 ho chi minh"
+    },
+    {
+      "name": "Bún Bò Huế Mỡ Nổi Cô Như",
+      "address": "274/29 Võ Văn Tần, Bàn Cờ, Hồ Chí Minh, Vietnam",
+      "lat": 10.7725252,
+      "lng": 106.6855406,
+      "rating": null,
+      "review_count": 0,
+      "phone": "+84 937 937 818",
+      "image_urls": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHJaQyVaiENKmDKSpMqYR787qvw5qm9VnGVx5LsvyZSTySabB8TOrKdtfRaATdxLVOpr0mwYp1INHtZSiTtmffF8jftMW2kukoc2arG4BL2O39wBCdGXyhjbi3JvGaHxUFT1d0W=w32-h32-p-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHJaQyVaiENKmDKSpMqYR787qvw5qm9VnGVx5LsvyZSTySabB8TOrKdtfRaATdxLVOpr0mwYp1INHtZSiTtmffF8jftMW2kukoc2arG4BL2O39wBCdGXyhjbi3JvGaHxUFT1d0W=w408-h725-k-no"
+      ],
+      "url": "https://www.google.com/maps/place/B%C3%BAn+B%C3%B2+Hu%E1%BA%BF+M%E1%BB%A1+N%E1%BB%95i+C%C3%B4+Nh%C6%B0/@10.7725252,106.6855406,17z/data=!3m1!4b1!4m6!3m5!1s0x31752f776216d891:0x69d47584d9fed9ae!8m2!3d10.7725252!4d106.6855406!16s%2Fg%2F11fmv_rkqd?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MDUwNi4wIKXMDSoASAFQAw%3D%3D",
+      "google_place_id": null,
+      "google_cid": "0x31752f776216d891:0x69d47584d9fed9ae",
+      "district": "Quận 1",
+      "reviews": [],
+      "query": "bun bo hue district 3 saigon"
+    },
+    {
+      "name": "Bún bò Huế Kim Hương quận 3 , đuôi bò , lẩu xí quách ngon",
+      "address": "17 Rạch Bùng Binh, Nhiêu Lộc, Hồ Chí Minh, Vietnam",
+      "lat": 10.7799818,
+      "lng": 106.6790377,
+      "rating": null,
+      "review_count": 0,
+      "phone": "+84 938 551 717",
+      "image_urls": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHeuSs1n8zIItycYzam5S1qKGCSw4uEy2gWKuv2seNAAW_WinQok6CBUUNk1eHplk_aTMoYer8pd009TerLTEBjJqYXHSPaQfM1nH6pevWfqYUZsttsuyD8LgyRaBQfgL7mYBawOA=w32-h32-p-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHeuSs1n8zIItycYzam5S1qKGCSw4uEy2gWKuv2seNAAW_WinQok6CBUUNk1eHplk_aTMoYer8pd009TerLTEBjJqYXHSPaQfM1nH6pevWfqYUZsttsuyD8LgyRaBQfgL7mYBawOA=w408-h306-k-no"
+      ],
+      "url": "https://www.google.com/maps/place/B%C3%BAn+b%C3%B2+Hu%E1%BA%BF+Kim+H%C6%B0%C6%A1ng+qu%E1%BA%ADn+3+,+%C4%91u%C3%B4i+b%C3%B2+,+l%E1%BA%A9u+x%C3%AD+qu%C3%A1ch+ngon/@10.7799818,106.6790377,17z/data=!3m1!4b1!4m6!3m5!1s0x31752f595de18417:0x8d83da188696c9f3!8m2!3d10.7799818!4d106.6790377!16s%2Fg%2F11t57gl_cg?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MDUwNi4wIKXMDSoASAFQAw%3D%3D",
+      "google_place_id": null,
+      "google_cid": "0x31752f595de18417:0x8d83da188696c9f3",
+      "district": "Quận 1",
+      "reviews": [],
+      "query": "bun bo hue district 3 saigon"
+    },
+    {
+      "name": "Bun Bo Hue Huong Giang",
+      "address": "325 Võ Văn Tần, Bàn Cờ, Hồ Chí Minh, Vietnam",
+      "lat": 10.7713622,
+      "lng": 106.6856471,
+      "rating": null,
+      "review_count": 0,
+      "phone": "+84 902 340 899",
+      "image_urls": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGWqDC1eXxDlfOjMfNUesapToMDoGbRG9c82HwL_oVQENEecPxtNiz2iaBVhUK9Ci3uAq7AorkUTxQN1KL6Lx9LppxD6sV8L2U1oANhlxGb4bongJ-4EnYSgPXs5cV11utmgEFq=w32-h32-p-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGWqDC1eXxDlfOjMfNUesapToMDoGbRG9c82HwL_oVQENEecPxtNiz2iaBVhUK9Ci3uAq7AorkUTxQN1KL6Lx9LppxD6sV8L2U1oANhlxGb4bongJ-4EnYSgPXs5cV11utmgEFq=w408-h544-k-no"
+      ],
+      "url": "https://www.google.com/maps/place/Bun+Bo+Hue+Huong+Giang/@10.7713622,106.6856471,17z/data=!3m1!4b1!4m6!3m5!1s0x31752f2476b0ad11:0xb6b6f7163c1a1c95!8m2!3d10.7713622!4d106.6856471!16s%2Fg%2F11c1qcj0ll?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MDUwNi4wIKXMDSoASAFQAw%3D%3D",
+      "google_place_id": null,
+      "google_cid": "0x31752f2476b0ad11:0xb6b6f7163c1a1c95",
+      "district": "Quận 1",
+      "reviews": [],
+      "query": "bun bo hue district 3 saigon"
+    },
+    {
+      "name": "Bún Bò Huế Cô Ân",
+      "address": "331/10 Đ. Nguyễn Thiện Thuật, Bàn Cờ, Hồ Chí Minh, Vietnam",
+      "lat": 10.7698562,
+      "lng": 106.6770208,
+      "rating": null,
+      "review_count": 0,
+      "phone": "+84 28 3833 2806",
+      "image_urls": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAH0UylQbv2cQfx4kLxSTY6gvStNoc_JJI0g2v45uFSXXBN2pjveLCI-s5lPuFDaqazI0V59hc8QkIKd2i7F69gaVawOEXj4F0U-0kU8JGhJx4k2KR3CTzQXfr9E_g_XsnRH91msH0Ht2Z8=w32-h32-p-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAH0UylQbv2cQfx4kLxSTY6gvStNoc_JJI0g2v45uFSXXBN2pjveLCI-s5lPuFDaqazI0V59hc8QkIKd2i7F69gaVawOEXj4F0U-0kU8JGhJx4k2KR3CTzQXfr9E_g_XsnRH91msH0Ht2Z8=w408-h544-k-no"
+      ],
+      "url": "https://www.google.com/maps/place/B%C3%BAn+B%C3%B2+Hu%E1%BA%BF+C%C3%B4+%C3%82n/@10.7698562,106.6770208,17z/data=!3m1!4b1!4m6!3m5!1s0x31752f2012a48b97:0xc6e1e912ccbb5016!8m2!3d10.7698562!4d106.6770208!16s%2Fg%2F11j00sqrd8?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MDUwNi4wIKXMDSoASAFQAw%3D%3D",
+      "google_place_id": null,
+      "google_cid": "0x31752f2012a48b97:0xc6e1e912ccbb5016",
+      "district": "Quận 1",
+      "reviews": [],
+      "query": "bun bo hue district 3 saigon"
+    },
+    {
+      "name": "GÓC HUẾ - Kỳ Đồng",
+      "address": "41 Đ. Kỳ Đồng, Nhiêu Lộc, Hồ Chí Minh 700000, Vietnam",
+      "lat": 10.7804676,
+      "lng": 106.6812148,
+      "rating": null,
+      "review_count": 0,
+      "phone": "+84 909 182 628",
+      "image_urls": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFhVuq7GXuTFcSEZ1BxSuEVsTMrH-p1N8SaCUFPB1XJV1ihWZZg_akaHzoAA4JuaQuDuo0AH0T3rgdnBKzdx7kGce-l8HVW7UMoLwMRka6Xh8Gh8a-1Rm_jW2X75U0W64RNqKj6=w32-h32-p-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFhVuq7GXuTFcSEZ1BxSuEVsTMrH-p1N8SaCUFPB1XJV1ihWZZg_akaHzoAA4JuaQuDuo0AH0T3rgdnBKzdx7kGce-l8HVW7UMoLwMRka6Xh8Gh8a-1Rm_jW2X75U0W64RNqKj6=w408-h272-k-no"
+      ],
+      "url": "https://www.google.com/maps/place/G%C3%93C+HU%E1%BA%BE+-+K%E1%BB%B3+%C4%90%E1%BB%93ng/@10.7804676,106.6812148,17z/data=!3m1!4b1!4m6!3m5!1s0x31752f87625a3a4b:0xb709ee5bda105613!8m2!3d10.7804676!4d106.6812148!16s%2Fg%2F11j7h337x0?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MDUwNi4wIKXMDSoASAFQAw%3D%3D",
+      "google_place_id": null,
+      "google_cid": "0x31752f87625a3a4b:0xb709ee5bda105613",
+      "district": "Quận 1",
+      "reviews": [],
+      "query": "bun bo hue district 3 saigon"
+    },
+    {
+      "name": "Ma Oi - Bun Bo Hue - Hue-style Beef Noodle Soup",
+      "address": "59 Thạch Thị Thanh, Tân Định, Hồ Chí Minh, Vietnam",
+      "lat": 10.7905343,
+      "lng": 106.6920808,
+      "rating": null,
+      "review_count": 0,
+      "phone": "+84 908 085 713",
+      "image_urls": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE-7liK4NsD0SjzMvuevWknpn61gQVQ1ne2fshkGXr8Td6JHB7FwScY6HrMJp1c5IBd-AzAICetigCDM3VgCgMg_jxdBY5s34Z3Sapr_DBcZNfj3h9OG6Z9nPx01vDQc4VycmEjB79wVm32=w32-h32-p-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE-7liK4NsD0SjzMvuevWknpn61gQVQ1ne2fshkGXr8Td6JHB7FwScY6HrMJp1c5IBd-AzAICetigCDM3VgCgMg_jxdBY5s34Z3Sapr_DBcZNfj3h9OG6Z9nPx01vDQc4VycmEjB79wVm32=w408-h544-k-no"
+      ],
+      "url": "https://www.google.com/maps/place/Ma+Oi+-+Bun+Bo+Hue+-+Hue-style+Beef+Noodle+Soup/@10.7905343,106.6920808,17z/data=!3m1!4b1!4m6!3m5!1s0x317529439d6977f9:0x6ef1b72dacefa058!8m2!3d10.7905343!4d106.6920808!16s%2Fg%2F11v3fzvzfk?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MDUwNi4wIKXMDSoASAFQAw%3D%3D",
+      "google_place_id": null,
+      "google_cid": "0x317529439d6977f9:0x6ef1b72dacefa058",
+      "district": "Quận 1",
+      "reviews": [],
+      "query": "bun bo hue district 3 saigon"
+    },
+    {
+      "name": "Đỉnh Bread & Tea | Bánh Mì Ngon Quận 1",
+      "address": "170 Trần Hưng Đạo, Cầu Ông Lãnh, Hồ Chí Minh 700000, Vietnam",
+      "lat": 10.7635361,
+      "lng": 106.6911363,
+      "rating": null,
+      "review_count": 0,
+      "phone": "+84 859 944 448",
+      "image_urls": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG32zeEGHsyt6du7NIscO_5IdwkXDUc29os6H81rLY4c1__xUtA2K1bi2hrOSyQZHXalT1q6Lb1sPx6TnBt5NFTtpDdZIDJzb-13t5KKuO7ruIi6-AKX7-xO1GVUsNLVuLJCPwdXObyaDjg=w32-h32-p-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG32zeEGHsyt6du7NIscO_5IdwkXDUc29os6H81rLY4c1__xUtA2K1bi2hrOSyQZHXalT1q6Lb1sPx6TnBt5NFTtpDdZIDJzb-13t5KKuO7ruIi6-AKX7-xO1GVUsNLVuLJCPwdXObyaDjg=w408-h408-k-no"
+      ],
+      "url": "https://www.google.com/maps/place/%C4%90%E1%BB%89nh+Bread+%26+Tea+%7C+B%C3%A1nh+M%C3%AC+Ngon+Qu%E1%BA%ADn+1/@10.7635361,106.6911363,17z/data=!3m1!4b1!4m6!3m5!1s0x31752f0018118251:0x121e36bb152daf8!8m2!3d10.7635361!4d106.6911363!16s%2Fg%2F11ym_zq4j_?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MDUwNi4wIKXMDSoASAFQAw%3D%3D",
+      "google_place_id": null,
+      "google_cid": "0x31752f0018118251:0x121e36bb152daf8",
+      "district": "Quận 1",
+      "reviews": [],
+      "query": "banh mi quan 1 hcm"
+    },
+    {
+      "name": "Bánh Mì Huynh Hoa - Lê Thị Riêng",
+      "address": "26 Lê Thị Riêng, Bến Thành, Hồ Chí Minh, Vietnam",
+      "lat": 10.7715226,
+      "lng": 106.6923968,
+      "rating": null,
+      "review_count": 0,
+      "phone": "+84 338 044 646",
+      "image_urls": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGJR9AgNhkL_Bhau5DKKOsyH1ak5nj3mpCmcitrqzSGyYRTWi9xsbPQNZe8s2_JzLhfps1u5cIMuafiipRtnX8bKL3A8p1iABmDlXkbwuKa3Ht6Zzc4UH17DcoPM5R0z1bqufwLWFXG7myk=w32-h32-p-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGJR9AgNhkL_Bhau5DKKOsyH1ak5nj3mpCmcitrqzSGyYRTWi9xsbPQNZe8s2_JzLhfps1u5cIMuafiipRtnX8bKL3A8p1iABmDlXkbwuKa3Ht6Zzc4UH17DcoPM5R0z1bqufwLWFXG7myk=w408-h306-k-no"
+      ],
+      "url": "https://www.google.com/maps/place/B%C3%A1nh+M%C3%AC+Huynh+Hoa+-+L%C3%AA+Th%E1%BB%8B+Ri%C3%AAng/@10.7715226,106.6923968,17z/data=!3m1!4b1!4m6!3m5!1s0x31752f9a2b48b0f5:0x6a60bc45340de55c!8m2!3d10.7715226!4d106.6923968!16s%2Fg%2F11rfn3ghz4?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MDUwNi4wIKXMDSoASAFQAw%3D%3D",
+      "google_place_id": null,
+      "google_cid": "0x31752f9a2b48b0f5:0x6a60bc45340de55c",
+      "district": "Quận 1",
+      "reviews": [],
+      "query": "banh mi quan 1 hcm"
+    },
+    {
+      "name": "Ut Thuong Banhmi",
+      "address": "28/11A Tôn Thất Tùng, Quận 1, Hồ Chí Minh 70000, Vietnam",
+      "lat": 10.7694107,
+      "lng": 106.6898393,
+      "rating": null,
+      "review_count": 0,
+      "phone": "+84 937 396 392",
+      "image_urls": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGCDuc2cKO3FDaYM5CS8MvA6OZ0qT0jhueaj0-AhvFphOlwwWClHvChQjc3e05r278p7_li8f1RyxQW-0J2Fvkx3oSygGPZ7FNrRU64wbLI8pa3D0l3zCaNKNw6dGcCgRYWnPzXL6UXgPRa=w32-h32-p-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGCDuc2cKO3FDaYM5CS8MvA6OZ0qT0jhueaj0-AhvFphOlwwWClHvChQjc3e05r278p7_li8f1RyxQW-0J2Fvkx3oSygGPZ7FNrRU64wbLI8pa3D0l3zCaNKNw6dGcCgRYWnPzXL6UXgPRa=w408-h544-k-no"
+      ],
+      "url": "https://www.google.com/maps/place/Ut+Thuong+Banhmi/@10.7694107,106.6898393,17z/data=!3m1!4b1!4m6!3m5!1s0x31752f41359d407d:0xf23c276760f88a3c!8m2!3d10.7694107!4d106.6898393!16s%2Fg%2F11ckvwn199?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MDUwNi4wIKXMDSoASAFQAw%3D%3D",
+      "google_place_id": null,
+      "google_cid": "0x31752f41359d407d:0xf23c276760f88a3c",
+      "district": "Quận 1",
+      "reviews": [],
+      "query": "banh mi quan 1 hcm"
+    },
+    {
+      "name": "BAMI CÔ XÍU | Bánh Mì Ngon Cô Giang | Bánh Mì Ngon Quận 1",
+      "address": "163B Cô Bắc, Cầu Ông Lãnh, Hồ Chí Minh 700000, Vietnam",
+      "lat": 10.7628115,
+      "lng": 106.692527,
+      "rating": null,
+      "review_count": 0,
+      "phone": "+84 782 306 326",
+      "image_urls": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHQ0ZiI-DXVsPaWqTdzQRInA8GD7Pl5D_LwT0MmDc0l8Je7J0UIbM2YnHXGZMx3oS5VwN6PSYl4ntyzBUxDsTKwm7l_AyN4nidT_fHNUO5lmSMAdfrZNgxEt1jNMQezvnpVhrganC5o2_W3=w32-h32-p-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHQ0ZiI-DXVsPaWqTdzQRInA8GD7Pl5D_LwT0MmDc0l8Je7J0UIbM2YnHXGZMx3oS5VwN6PSYl4ntyzBUxDsTKwm7l_AyN4nidT_fHNUO5lmSMAdfrZNgxEt1jNMQezvnpVhrganC5o2_W3=w408-h612-k-no"
+      ],
+      "url": "https://www.google.com/maps/place/BAMI+C%C3%94+X%C3%8DU+%7C+B%C3%A1nh+M%C3%AC+Ngon+C%C3%B4+Giang+%7C+B%C3%A1nh+M%C3%AC+Ngon+Qu%E1%BA%ADn+1/@10.7628115,106.692527,17z/data=!3m1!4b1!4m6!3m5!1s0x31752f0040203303:0xc9cfdcb4c6dabe5d!8m2!3d10.7628115!4d106.692527!16s%2Fg%2F11xh6cv22k?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MDUwNi4wIKXMDSoASAFQAw%3D%3D",
+      "google_place_id": null,
+      "google_cid": "0x31752f0040203303:0xc9cfdcb4c6dabe5d",
+      "district": "Quận 1",
+      "reviews": [],
+      "query": "banh mi quan 1 hcm"
+    },
+    {
+      "name": "Bánh mì Anh Phán",
+      "address": "145 Đ. Cống Quỳnh, Cầu Ông Lãnh, Hồ Chí Minh, Vietnam",
+      "lat": 10.76618,
+      "lng": 106.6893197,
+      "rating": null,
+      "review_count": 0,
+      "phone": "+84 28 3600 2850",
+      "image_urls": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGVddWxXl9cZmvwi0qKe7Ie4yyjWmaRdgDpahas58KYoO5Qmv0k_iqxjadQWuelVXDwPeadGljl4vLkdtMpEV1UN_lOlDAXsahm3AQ0w4-SOcf-XqVQqz40CdTj5xoRaYvMVye4By6tA0G7=w32-h32-p-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGVddWxXl9cZmvwi0qKe7Ie4yyjWmaRdgDpahas58KYoO5Qmv0k_iqxjadQWuelVXDwPeadGljl4vLkdtMpEV1UN_lOlDAXsahm3AQ0w4-SOcf-XqVQqz40CdTj5xoRaYvMVye4By6tA0G7=w408-h408-k-no"
+      ],
+      "url": "https://www.google.com/maps/place/B%C3%A1nh+m%C3%AC+Anh+Ph%C3%A1n/@10.76618,106.6893197,17z/data=!3m1!4b1!4m6!3m5!1s0x31752f17bd6785a5:0xfd9a6c1bfdbb5045!8m2!3d10.76618!4d106.6893197!16s%2Fg%2F1tfb41ht?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MDUwNi4wIKXMDSoASAFQAw%3D%3D",
+      "google_place_id": null,
+      "google_cid": "0x31752f17bd6785a5:0xfd9a6c1bfdbb5045",
+      "district": "Quận 1",
+      "reviews": [],
+      "query": "banh mi quan 1 hcm"
+    },
+    {
+      "name": "Bánh mì Bùi Thị Xuân",
+      "address": "122E Bùi Thị Xuân, Quận 1, Hồ Chí Minh, Vietnam",
+      "lat": 10.7698754,
+      "lng": 106.6882354,
+      "rating": null,
+      "review_count": 0,
+      "phone": "+84 28 6271 9997",
+      "image_urls": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAH6M_i_d7E_NBYnJn8mJbGvJyNKNy_Xaa7zhak8K-pP644XNSLq7Ns8t_optR0WWN70SyGnnZGvUYnrjXyWkZXgh1xh2q6OyyNDO3J9AUqsqlwgc9EqjH28ICYeGRLirV6-HaaVD42fkyQ=w32-h32-p-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAH6M_i_d7E_NBYnJn8mJbGvJyNKNy_Xaa7zhak8K-pP644XNSLq7Ns8t_optR0WWN70SyGnnZGvUYnrjXyWkZXgh1xh2q6OyyNDO3J9AUqsqlwgc9EqjH28ICYeGRLirV6-HaaVD42fkyQ=w408-h306-k-no"
+      ],
+      "url": "https://www.google.com/maps/place/B%C3%A1nh+m%C3%AC+B%C3%B9i+Th%E1%BB%8B+Xu%C3%A2n/@10.7698754,106.6882354,17z/data=!3m1!4b1!4m6!3m5!1s0x31752f3d33002c3d:0x46e53eca5c0dce3e!8m2!3d10.7698754!4d106.6882354!16s%2Fg%2F1hc37vb1w?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MDUwNi4wIKXMDSoASAFQAw%3D%3D",
+      "google_place_id": null,
+      "google_cid": "0x31752f3d33002c3d:0x46e53eca5c0dce3e",
+      "district": "Quận 1",
+      "reviews": [],
+      "query": "banh mi quan 1 hcm"
+    },
+    {
+      "name": "Cơm Tấm Mộc",
+      "address": "85 Lý Tự Trọng, Bến Thành, Hồ Chí Minh, Vietnam",
+      "lat": 10.7744862,
+      "lng": 106.697965,
+      "rating": null,
+      "review_count": 0,
+      "phone": "+84 28 3824 8561",
+      "image_urls": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHVvi8b4iYM2KdlOhMwTyaA3oeGIzEirPpCYUF54OIc7seD0cdzG66iaE1nAAp_U9fInw0P3D7f4eYnHewUzaA0jhF91I4DDziE61tCOeT7rBb49HZJzrM0lJIbXibUW7tMlWz3y-FpcF-J=w32-h32-p-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHVvi8b4iYM2KdlOhMwTyaA3oeGIzEirPpCYUF54OIc7seD0cdzG66iaE1nAAp_U9fInw0P3D7f4eYnHewUzaA0jhF91I4DDziE61tCOeT7rBb49HZJzrM0lJIbXibUW7tMlWz3y-FpcF-J=w408-h306-k-no"
+      ],
+      "url": "https://www.google.com/maps/place/C%C6%A1m+T%E1%BA%A5m+M%E1%BB%99c/data=!4m7!3m6!1s0x31752f478a7ceb17:0xdcb87db311325ae8!8m2!3d10.7744862!4d106.697965!16s%2Fg%2F1trvhy0s!19sChIJF-t8ikcvdTER6FoyEbN9uNw?authuser=0&hl=en&rclk=1",
+      "google_place_id": "ChIJF-t8ikcvdTER6FoyEbN9uNw",
+      "google_cid": "0x31752f478a7ceb17:0xdcb87db311325ae8",
+      "district": "Quận 1",
+      "reviews": [],
+      "query": "com tam saigon district 1"
+    },
+    {
+      "name": "Cơm Tấm Bụi Sài Gòn",
+      "address": "100 Thạch Thị Thanh, Tân Định, Hồ Chí Minh, Vietnam",
+      "lat": 10.7909414,
+      "lng": 106.6914856,
+      "rating": null,
+      "review_count": 0,
+      "phone": "+84 988 939 304",
+      "image_urls": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFN5Swg88Z4RvL3XxMFIYUykxFXXt0hyrmuDmvAeROCatS8dq9WMvb9Fqc0nUH9BCujTEaFb1Gu0kLi45053CY23PxbNYK_96fQ2mtlV-QkXoOlIHazhtOf0v-boF0g5z1-mTtUeJBVBIT8=w32-h32-p-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFN5Swg88Z4RvL3XxMFIYUykxFXXt0hyrmuDmvAeROCatS8dq9WMvb9Fqc0nUH9BCujTEaFb1Gu0kLi45053CY23PxbNYK_96fQ2mtlV-QkXoOlIHazhtOf0v-boF0g5z1-mTtUeJBVBIT8=w408-h544-k-no"
+      ],
+      "url": "https://www.google.com/maps/place/C%C6%A1m+T%E1%BA%A5m+B%E1%BB%A5i+S%C3%A0i+G%C3%B2n/data=!4m7!3m6!1s0x317528ccdd844d7b:0x98348ff541222412!8m2!3d10.7909414!4d106.6914856!16s%2Fg%2F11xc3r9xw!19sChIJe02E3cwodTEREiQiQfWPNJg?authuser=0&hl=en&rclk=1",
+      "google_place_id": "ChIJe02E3cwodTEREiQiQfWPNJg",
+      "google_cid": "0x317528ccdd844d7b:0x98348ff541222412",
+      "district": "Quận 1",
+      "reviews": [],
+      "query": "com tam saigon district 1"
+    },
+    {
+      "name": "CƠM TẤM NGON 3 MIỀN QUẬN 1",
+      "address": "106Bis Nguyễn Văn Cừ, Cầu Ông Lãnh, Hồ Chí Minh 700000, Vietnam",
+      "lat": 10.7579891,
+      "lng": 106.68483,
+      "rating": null,
+      "review_count": 0,
+      "phone": null,
+      "image_urls": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEkeVq0H4fFDj0PG0bqDB_Zn-DE7P5zroEAbtzNtogPaAnlvG6xAQ1QNDKllLwfoK68vA55omNTHGiEpUD0C-jvqG8Lda5dJHce3tLFFQP3yvunCof7riUcJWvjTwMQtsJ5x5X4=w32-h32-p-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEkeVq0H4fFDj0PG0bqDB_Zn-DE7P5zroEAbtzNtogPaAnlvG6xAQ1QNDKllLwfoK68vA55omNTHGiEpUD0C-jvqG8Lda5dJHce3tLFFQP3yvunCof7riUcJWvjTwMQtsJ5x5X4=w408-h306-k-no"
+      ],
+      "url": "https://www.google.com/maps/place/C%C6%A0M+T%E1%BA%A4M+NGON+3+MI%E1%BB%80N+QU%E1%BA%ACN+1/@10.7579891,106.68483,17z/data=!3m1!4b1!4m6!3m5!1s0x31752f0057251893:0x6f48e9cb7e1d4fc6!8m2!3d10.7579891!4d106.68483!16s%2Fg%2F11w1dqbxt0?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MDUwNi4wIKXMDSoASAFQAw%3D%3D",
+      "google_place_id": null,
+      "google_cid": "0x31752f0057251893:0x6f48e9cb7e1d4fc6",
+      "district": "Quận 1",
+      "reviews": [],
+      "query": "com tam saigon district 1"
+    },
+    {
+      "name": "Cơm tấm Đề Thám",
+      "address": "269 Đề Thám, Bến Thành, Hồ Chí Minh, Vietnam",
+      "lat": 10.7683809,
+      "lng": 106.6933654,
+      "rating": null,
+      "review_count": 0,
+      "phone": "+84 933 937 335",
+      "image_urls": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF4FK7fmGS5JbXr7fLML4xv4UzoZB6igiDs94hbwUwshpUHHf-OSO1vm6TkSxh2xSHvB_WoJusqWZWIa7pOfGBa5Q9lvBkxK_w7osNY5ATjFWL-M6vJzV6jPZMEs7edrJP6DfEVQclCQl6v=w32-h32-p-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF4FK7fmGS5JbXr7fLML4xv4UzoZB6igiDs94hbwUwshpUHHf-OSO1vm6TkSxh2xSHvB_WoJusqWZWIa7pOfGBa5Q9lvBkxK_w7osNY5ATjFWL-M6vJzV6jPZMEs7edrJP6DfEVQclCQl6v=w408-h544-k-no"
+      ],
+      "url": "https://www.google.com/maps/place/C%C6%A1m+t%E1%BA%A5m+%C4%90%E1%BB%81+Th%C3%A1m/@10.7683809,106.6933654,17z/data=!3m1!4b1!4m6!3m5!1s0x31752fc4b07ba49d:0xa571105058415d9!8m2!3d10.7683809!4d106.6933654!16s%2Fg%2F11qm3fpcfd?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MDUwNi4wIKXMDSoASAFQAw%3D%3D",
+      "google_place_id": null,
+      "google_cid": "0x31752fc4b07ba49d:0xa571105058415d9",
+      "district": "Quận 1",
+      "reviews": [],
+      "query": "com tam saigon district 1"
+    },
+    {
+      "name": "Cơm tấm Nguyễn Văn Cừ",
+      "address": "74 Nguyễn Văn Cừ, Cầu Ông Lãnh, Hồ Chí Minh, Vietnam",
+      "lat": 10.756867,
+      "lng": 106.685172,
+      "rating": null,
+      "review_count": 0,
+      "phone": "+84 28 6680 7474",
+      "image_urls": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEI8pdNnlk3uKcYpzCAN5qL45wUyLN7j6D-CHYlThNKzM3bKbg_tG6n-XlpQ8sqJoXQmghLM8Kul6ANEsluap8k9yk7xp08sGEfTUkjIkvdsaXzzflxnYEa2FKwrCvErxHQwwdxDA=w32-h32-p-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEI8pdNnlk3uKcYpzCAN5qL45wUyLN7j6D-CHYlThNKzM3bKbg_tG6n-XlpQ8sqJoXQmghLM8Kul6ANEsluap8k9yk7xp08sGEfTUkjIkvdsaXzzflxnYEa2FKwrCvErxHQwwdxDA=w408-h306-k-no"
+      ],
+      "url": "https://www.google.com/maps/place/C%C6%A1m+t%E1%BA%A5m+Nguy%E1%BB%85n+V%C4%83n+C%E1%BB%AB/@10.756867,106.685172,17z/data=!3m1!4b1!4m6!3m5!1s0x31752f7eeb84ec71:0x9cc843228843fb3b!8m2!3d10.756867!4d106.685172!16s%2Fg%2F1hc6gn3h8?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MDUwNi4wIKXMDSoASAFQAw%3D%3D",
+      "google_place_id": null,
+      "google_cid": "0x31752f7eeb84ec71:0x9cc843228843fb3b",
+      "district": "Quận 1",
+      "reviews": [],
+      "query": "com tam saigon district 1"
+    },
+    {
+      "name": "Cơm Tấm số 1 Nguyễn Trãi",
+      "address": "150/1 Nguyễn Trãi, Bến Thành, Hồ Chí Minh, Vietnam",
+      "lat": 10.7696109,
+      "lng": 106.6902558,
+      "rating": null,
+      "review_count": 0,
+      "phone": "+84 907 619 167",
+      "image_urls": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFwzKl3TpjMFq8Xy_M5BJLx2VAlZWxA_iSj8U4f_wQ-UA1-qtZf6IWvh5rqY8_nj2qIiPHYMy4ciHsn2hIXOQUzhJfDCNVhHrSfhAe4Gl1OrGsZ9HMLtlmJ-nt-2WQsqKCPZilG=w32-h32-p-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFwzKl3TpjMFq8Xy_M5BJLx2VAlZWxA_iSj8U4f_wQ-UA1-qtZf6IWvh5rqY8_nj2qIiPHYMy4ciHsn2hIXOQUzhJfDCNVhHrSfhAe4Gl1OrGsZ9HMLtlmJ-nt-2WQsqKCPZilG=w408-h544-k-no"
+      ],
+      "url": "https://www.google.com/maps/place/C%C6%A1m+T%E1%BA%A5m+s%E1%BB%91+1+Nguy%E1%BB%85n+Tr%C3%A3i/@10.7696109,106.6902558,17z/data=!3m1!4b1!4m6!3m5!1s0x31752f1899badc33:0x58511ab6f55e6ef3!8m2!3d10.7696109!4d106.6902558!16s%2Fg%2F11txtg4gw0?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MDUwNi4wIKXMDSoASAFQAw%3D%3D",
+      "google_place_id": null,
+      "google_cid": "0x31752f1899badc33:0x58511ab6f55e6ef3",
+      "district": "Quận 1",
+      "reviews": [],
+      "query": "com tam saigon district 1"
+    }
+  ]
+}
