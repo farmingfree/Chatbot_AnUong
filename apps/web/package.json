@@ -9,6 +9,9 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@googlemaps/markerclusterer": "^2.6.2",
+    "@react-google-maps/api": "^2.20.8",
+    "framer-motion": "^12.38.0",
     "next": "14.2.5",
     "next-auth": "^4.24.14",
     "react": "^18",

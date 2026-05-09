@@ -1,5 +1,35 @@
 @import "tailwindcss";
 
+@layer base {
+  :root {
+    --color-bg-primary: 249 250 251;
+    --color-bg-secondary: 255 255 255;
+    --color-bg-tertiary: 243 244 246;
+    --color-text-primary: 17 24 39;
+    --color-text-secondary: 75 85 99;
+    --color-text-tertiary: 156 163 175;
+    --color-border: 229 231 235;
+    --color-border-secondary: 209 213 219;
+  }
+
+  .dark {
+    --color-bg-primary: 17 24 39;
+    --color-bg-secondary: 31 41 55;
+    --color-bg-tertiary: 55 65 81;
+    --color-text-primary: 243 244 246;
+    --color-text-secondary: 209 213 219;
+    --color-text-tertiary: 156 163 175;
+    --color-border: 55 65 81;
+    --color-border-secondary: 75 85 99;
+  }
+
+  * {
+    transition-property: background-color, border-color, color;
+    transition-duration: 200ms;
+    transition-timing-function: ease-in-out;
+  }
+}
+
 @keyframes fadeIn {
   from {
     opacity: 0;

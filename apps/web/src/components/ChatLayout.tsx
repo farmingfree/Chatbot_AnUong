@@ -1,6 +1,7 @@
 'use client';
 
 import { ReactNode, useState, useEffect } from 'react';
+import { ThemeToggle } from './ThemeToggle';
 
 interface ChatLayoutProps {
   children: ReactNode;
@@ -121,6 +122,7 @@ export function ChatLayout({ children, onNewChat, sessionTitle }: ChatLayoutProp
             </div>
 
             <div className="flex items-center gap-2 shrink-0">
+              <ThemeToggle />
               <div className="hidden sm:flex items-center gap-1 text-xs sm:text-sm text-gray-600 dark:text-gray-400">
                 <span>📍</span>
                 <span className="hidden md:inline">TP. Hồ Chí Minh</span>
