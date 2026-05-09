@@ -28,10 +28,11 @@ class DBWriter:
         # Check if exists by source_id
         existing_id = None
         if raw.source_id:
+            from sqlalchemy import cast, String
             result = await self.db.execute(
                 select(Place.id).where(
-                    Place.source_data['source_id'].astext == raw.source_id,
-                    Place.source_data['source'].astext == raw.source
+                    cast(Place.source_data['source_id'], String) == f'"{raw.source_id}"',
+                    cast(Place.source_data['source'], String) == f'"{raw.source}"'
                 )
             )
             row = result.first()
@@ -55,7 +56,7 @@ class DBWriter:
             "price_min": raw.price_min,
             "price_max": raw.price_max,
             "price_level": raw.price_level,
-            "rating": raw.rating,
+            "rating_google": raw.rating,
             "review_count": raw.review_count,
             "hours": raw.hours,
             "features": raw.features or {},

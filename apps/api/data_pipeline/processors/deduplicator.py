@@ -30,10 +30,11 @@ class Deduplicator:
         
         # Check 1: source_id match
         if place.source_id:
+            from sqlalchemy import cast, String
             result = await self.db.execute(
                 select(Place.id).where(
-                    Place.source_data['source_id'].astext == place.source_id,
-                    Place.source_data['source'].astext == place.source
+                    cast(Place.source_data['source_id'], String) == f'"{place.source_id}"',
+                    cast(Place.source_data['source'], String) == f'"{place.source}"'
                 )
             )
             row = result.first()
