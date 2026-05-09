@@ -5,6 +5,12 @@ import sys
 import os
 from tqdm import tqdm
 
+# Fix Windows console encoding
+if sys.platform == 'win32':
+    import codecs
+    sys.stdout = codecs.getwriter('utf-8')(sys.stdout.buffer, 'strict')
+    sys.stderr = codecs.getwriter('utf-8')(sys.stderr.buffer, 'strict')
+
 # Add parent to path
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), '../'))
 
