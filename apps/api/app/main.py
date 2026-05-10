@@ -4,7 +4,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from app.config import settings
 from app.database import init_db, engine
-from app.routers import places, dishes, users, chat
+from app.routers import places, dishes, users, chat, conversations
 from app.routers import admin
 from sqlalchemy import text
 
@@ -47,6 +47,7 @@ app.include_router(places.router)
 app.include_router(dishes.router)
 app.include_router(users.router)
 app.include_router(chat.router)
+app.include_router(conversations.router)
 app.include_router(admin.router)
 
 

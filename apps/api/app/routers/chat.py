@@ -27,6 +27,7 @@ from app.services.free_chat import (
 from app.services.session import SessionService
 from app.routers.places import search_nearby_places, get_place_detail
 from app.routers.dishes import get_nearby_dishes
+from app.services.conversation_service import ConversationService
 
 logger = logging.getLogger(__name__)
 router = APIRouter(prefix="/api/chat", tags=["chat"])
@@ -188,9 +189,24 @@ async def chat_stream(
             # Step 1: Get or create session
             session_service = SessionService(redis)
             session = await session_service.get_or_create(req.session_id, user_id=req.user_id)
-            
+
             # Send session_id to client
             yield f"data: {json.dumps({'type': 'session_id', 'session_id': session.session_id})}\n\n"
+
+            # Step 1.5: Handle conversation persistence
+            conversation_service = ConversationService(db)
+            conversation_id = req.conversation_id
+
+            # If no conversation_id provided, create new conversation
+            if not conversation_id and req.messages and req.messages[-1].role == "user":
+                user_msg = req.messages[-1].content
+                if isinstance(user_msg, str):
+                    conversation = await conversation_service.create_conversation(
+                        user_id=req.user_id,
+                        first_message=user_msg
+                    )
+                    conversation_id = str(conversation.id)
+                    yield f"data: {json.dumps({'type': 'conversation_id', 'conversation_id': conversation_id})}\n\n"
 
             # Load long-term user profile
             user_profile = None
@@ -343,14 +359,41 @@ async def chat_stream(
                 if follow_up.content:
                     yield f"data: {json.dumps({'type': 'text', 'content': follow_up.content})}\n\n"
                     await session_service.add_message(session.session_id, "assistant", follow_up.content)
+
+                    # Save to conversation
+                    if conversation_id:
+                        await conversation_service.add_message(
+                            conversation_id=conversation_id,
+                            role="assistant",
+                            content=follow_up.content,
+                            message_type="text"
+                        )
             else:
                 if full_content:
                     await session_service.add_message(session.session_id, "assistant", full_content)
+
+                    # Save to conversation
+                    if conversation_id:
+                        await conversation_service.add_message(
+                            conversation_id=conversation_id,
+                            role="assistant",
+                            content=full_content,
+                            message_type="text"
+                        )
 
             # Save user message
             if req.messages and req.messages[-1].role == "user":
                 user_content = req.messages[-1].content
                 await session_service.add_message(session.session_id, "user", user_content if isinstance(user_content, str) else json.dumps(user_content))
+
+                # Save to conversation
+                if conversation_id:
+                    await conversation_service.add_message(
+                        conversation_id=conversation_id,
+                        role="user",
+                        content=user_content if isinstance(user_content, str) else json.dumps(user_content),
+                        message_type="text"
+                    )
 
             yield "data: [DONE]\n\n"
 

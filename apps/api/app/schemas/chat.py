@@ -15,6 +15,7 @@ class ChatRequest(BaseModel):
     lng: float | None = None
     session_id: str | None = None
     user_id: str | None = None
+    conversation_id: str | None = None  # New: link to persistent conversation
 
 
 class ChatResponse(BaseModel):
