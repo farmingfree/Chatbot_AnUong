@@ -51,7 +51,7 @@ export function MessageInput({ onSend, isStreaming }: MessageInputProps) {
   };
 
   return (
-    <div className="border-t bg-white dark:bg-gray-900 p-3 sm:p-4 shrink-0">
+    <div className="border-t border-primary bg-secondary p-3 sm:p-4 shrink-0">
       {/* Quick chips */}
       <div className="flex flex-wrap gap-1.5 sm:gap-2 mb-2 sm:mb-3 overflow-x-auto pb-1 scrollbar-hide">
         {QUICK_CHIPS.map((chip) => (
@@ -59,10 +59,10 @@ export function MessageInput({ onSend, isStreaming }: MessageInputProps) {
             key={chip}
             onClick={() => handleChipClick(chip)}
             disabled={isStreaming}
-            className="text-xs sm:text-sm px-2.5 py-1.5 sm:px-3 rounded-full border border-gray-300 dark:border-gray-600
-                     hover:bg-gray-100 dark:hover:bg-gray-800 active:bg-gray-200 dark:active:bg-gray-700
+            className="text-xs sm:text-sm px-2.5 py-1.5 sm:px-3 rounded-full border border-primary
+                     hover-bg-tertiary active:bg-tertiary
                      transition-colors whitespace-nowrap touch-manipulation
-                     disabled:opacity-50 disabled:cursor-not-allowed"
+                     disabled:opacity-50 disabled:cursor-not-allowed text-primary"
           >
             {chip}
           </button>
@@ -79,26 +79,26 @@ export function MessageInput({ onSend, isStreaming }: MessageInputProps) {
           placeholder={isStreaming ? 'Đang trả lời...' : 'Nhập tin nhắn...'}
           disabled={isStreaming}
           rows={1}
-          className="flex-1 resize-none rounded-lg border border-gray-300 dark:border-gray-600
-                   bg-white dark:bg-gray-800 px-3 py-2.5 sm:px-4 sm:py-3
-                   text-sm sm:text-base
-                   focus:outline-none focus:ring-2 focus:ring-blue-500
+          className="flex-1 resize-none rounded-lg border border-primary
+                   bg-secondary px-3 py-2.5 sm:px-4 sm:py-3
+                   text-sm sm:text-base text-primary
+                   focus:outline-none focus:ring-2 focus:ring-accent
                    disabled:opacity-50 disabled:cursor-not-allowed
                    max-h-32 overflow-y-auto touch-manipulation"
         />
         <button
           onClick={handleSubmit}
           disabled={!inputValue.trim() || isStreaming}
-          className="px-4 py-2.5 sm:px-6 sm:py-3 rounded-lg bg-blue-600 text-white font-medium text-sm sm:text-base
-                   hover:bg-blue-700 active:bg-blue-800 transition-colors touch-manipulation shrink-0
-                   disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:bg-blue-600"
+          className="px-4 py-2.5 sm:px-6 sm:py-3 rounded-lg bg-accent text-white font-medium text-sm sm:text-base
+                   hover:bg-accent-hover active:bg-accent-hover transition-colors touch-manipulation shrink-0
+                   disabled:opacity-50 disabled:cursor-not-allowed"
         >
           Gửi
         </button>
       </div>
 
       {/* Mobile hint */}
-      <div className="text-xs text-gray-500 dark:text-gray-400 mt-2 text-center sm:hidden">
+      <div className="text-xs text-tertiary mt-2 text-center sm:hidden">
         Enter để gửi, Shift+Enter để xuống dòng
       </div>
     </div>

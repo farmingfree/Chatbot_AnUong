@@ -1,0 +1,55 @@
+/* Theme utility classes */
+@layer utilities {
+  /* Background colors */
+  .bg-primary {
+    background-color: rgb(var(--color-bg-primary));
+  }
+
+  .bg-secondary {
+    background-color: rgb(var(--color-bg-secondary));
+  }
+
+  .bg-tertiary {
+    background-color: rgb(var(--color-bg-tertiary));
+  }
+
+  /* Text colors */
+  .text-primary {
+    color: rgb(var(--color-text-primary));
+  }
+
+  .text-secondary {
+    color: rgb(var(--color-text-secondary));
+  }
+
+  .text-tertiary {
+    color: rgb(var(--color-text-tertiary));
+  }
+
+  /* Border colors */
+  .border-primary {
+    border-color: rgb(var(--color-border));
+  }
+
+  .border-secondary {
+    border-color: rgb(var(--color-border-secondary));
+  }
+
+  /* Accent colors */
+  .bg-accent {
+    background-color: rgb(var(--color-accent));
+  }
+
+  .bg-accent-hover:hover {
+    background-color: rgb(var(--color-accent-hover));
+  }
+
+  .text-accent {
+    color: rgb(var(--color-accent));
+  }
+
+  /* Hover states */
+  .hover-bg-tertiary:hover {
+    background-color: rgb(var(--color-bg-tertiary));
+  }
+}

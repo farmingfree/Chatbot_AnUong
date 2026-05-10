@@ -22,11 +22,11 @@ export function ThemeToggle() {
   return (
     <button
       onClick={toggleTheme}
-      className="p-2 hover:bg-gray-100 dark:hover:bg-gray-700 rounded-lg transition-all duration-200 touch-manipulation"
+      className="p-2 hover-bg-tertiary rounded-lg transition-all duration-200 touch-manipulation"
       aria-label={theme === 'light' ? 'Chuyển sang chế độ tối' : 'Chuyển sang chế độ sáng'}
     >
       {theme === 'light' ? (
-        <svg className="w-5 h-5 text-gray-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <svg className="w-5 h-5 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
         </svg>
       ) : (

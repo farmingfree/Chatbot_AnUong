@@ -2,14 +2,17 @@
 
 @layer base {
   :root {
-    --color-bg-primary: 249 250 251;
-    --color-bg-secondary: 255 255 255;
-    --color-bg-tertiary: 243 244 246;
-    --color-text-primary: 17 24 39;
-    --color-text-secondary: 75 85 99;
-    --color-text-tertiary: 156 163 175;
-    --color-border: 229 231 235;
-    --color-border-secondary: 209 213 219;
+    /* Light mode - Orange/White modern theme */
+    --color-bg-primary: 255 251 245; /* Warm white background */
+    --color-bg-secondary: 255 255 255; /* Pure white */
+    --color-bg-tertiary: 254 243 230; /* Light orange tint */
+    --color-text-primary: 17 24 39; /* Dark gray/black text */
+    --color-text-secondary: 55 65 81; /* Medium gray text */
+    --color-text-tertiary: 107 114 128; /* Light gray text */
+    --color-border: 251 207 168; /* Soft orange border */
+    --color-border-secondary: 254 215 170; /* Lighter orange border */
+    --color-accent: 249 115 22; /* Orange accent */
+    --color-accent-hover: 234 88 12; /* Darker orange on hover */
   }
 
   .dark {
@@ -21,6 +24,8 @@
     --color-text-tertiary: 156 163 175;
     --color-border: 55 65 81;
     --color-border-secondary: 75 85 99;
+    --color-accent: 59 130 246;
+    --color-accent-hover: 37 99 235;
   }
 
   html {
@@ -28,19 +33,26 @@
   }
 
   body {
-    @apply bg-gray-50 text-gray-900 dark:bg-gray-900 dark:text-gray-100;
+    background-color: rgb(var(--color-bg-primary));
+    color: rgb(var(--color-text-primary));
   }
 
   * {
-    transition-property: background-color, border-color, color;
+    transition-property: background-color, border-color, color, fill, stroke;
     transition-duration: 200ms;
     transition-timing-function: ease-in-out;
   }
 
-  /* Ensure inputs have proper text colors in dark mode */
+  /* Ensure inputs have proper text colors */
   input,
   textarea {
-    @apply text-gray-900 dark:text-gray-100 placeholder-gray-400 dark:placeholder-gray-500;
+    color: rgb(var(--color-text-primary));
+    background-color: rgb(var(--color-bg-secondary));
+  }
+
+  input::placeholder,
+  textarea::placeholder {
+    color: rgb(var(--color-text-tertiary));
   }
 }
 
