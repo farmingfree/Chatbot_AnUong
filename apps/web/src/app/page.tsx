@@ -1,11 +1,12 @@
 'use client';
 
-import { useRef, useEffect } from 'react';
+import { useRef, useEffect, useMemo } from 'react';
 import { ChatLayout } from '@/components/ChatLayout';
 import { MessageBubble } from '@/components/MessageBubble';
 import { MessageInput } from '@/components/MessageInput';
 import { TypingIndicator } from '@/components/TypingIndicator';
 import { useChat } from '@/hooks/useChat';
+import { PlaceCard } from '@/types/chat';
 
 export default function Home() {
   const {
@@ -22,8 +23,19 @@ export default function Home() {
     messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
   }, [messages, currentStreamingMessage]);
 
+  // Extract all places from messages
+  const allPlaces = useMemo(() => {
+    const places: PlaceCard[] = [];
+    messages.forEach((msg) => {
+      if (msg.type === 'places' && msg.data?.places) {
+        places.push(...msg.data.places);
+      }
+    });
+    return places;
+  }, [messages]);
+
   return (
-    <ChatLayout onNewChat={clearSession}>
+    <ChatLayout onNewChat={clearSession} places={allPlaces}>
       {/* Messages List */}
       <div className="flex-1 overflow-y-auto p-3 sm:p-4 space-y-1 overscroll-contain">
         {messages.length === 0 && (

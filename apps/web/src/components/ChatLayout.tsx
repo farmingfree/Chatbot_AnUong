@@ -2,15 +2,36 @@
 
 import { ReactNode, useState, useEffect } from 'react';
 import { ThemeToggle } from './ThemeToggle';
+import { MapModal } from './MapModal';
+import { PlaceCard } from '@/types/chat';
 
 interface ChatLayoutProps {
   children: ReactNode;
   onNewChat?: () => void;
   sessionTitle?: string;
+  places?: PlaceCard[];
 }
 
-export function ChatLayout({ children, onNewChat, sessionTitle }: ChatLayoutProps) {
+export function ChatLayout({ children, onNewChat, sessionTitle, places = [] }: ChatLayoutProps) {
   const [sidebarOpen, setSidebarOpen] = useState(false);
+  const [mapOpen, setMapOpen] = useState(false);
+  const [userLocation, setUserLocation] = useState<{ lat: number; lng: number } | null>(null);
+
+  useEffect(() => {
+    if (navigator.geolocation) {
+      navigator.geolocation.getCurrentPosition(
+        (position) => {
+          setUserLocation({
+            lat: position.coords.latitude,
+            lng: position.coords.longitude,
+          });
+        },
+        (error) => {
+          console.error('Error getting location:', error);
+        }
+      );
+    }
+  }, []);
 
   useEffect(() => {
     if (sidebarOpen) {
@@ -122,6 +143,14 @@ export function ChatLayout({ children, onNewChat, sessionTitle }: ChatLayoutProp
             </div>
 
             <div className="flex items-center gap-2 shrink-0">
+              <button
+                onClick={() => setMapOpen(true)}
+                className="flex items-center gap-1.5 px-3 py-1.5 bg-blue-600 hover:bg-blue-700 text-white rounded-lg transition-colors text-sm font-medium"
+                aria-label="Mở bản đồ"
+              >
+                <span>🗺️</span>
+                <span className="hidden sm:inline">Bản đồ</span>
+              </button>
               <ThemeToggle />
               <div className="hidden sm:flex items-center gap-1 text-xs sm:text-sm text-gray-600 dark:text-gray-400">
                 <span>📍</span>
@@ -135,6 +164,14 @@ export function ChatLayout({ children, onNewChat, sessionTitle }: ChatLayoutProp
         {/* Messages Area */}
         {children}
       </main>
+
+      {/* Map Modal */}
+      <MapModal
+        isOpen={mapOpen}
+        onClose={() => setMapOpen(false)}
+        places={places}
+        userLocation={userLocation}
+      />
     </div>
   );
 }
