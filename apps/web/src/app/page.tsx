@@ -6,6 +6,7 @@ import { MessageBubble } from '@/components/MessageBubble';
 import { MessageInput } from '@/components/MessageInput';
 import { TypingIndicator } from '@/components/TypingIndicator';
 import { useChat } from '@/hooks/useChat';
+import { ConversationProvider } from '@/contexts/ConversationContext';
 import { PlaceCard } from '@/types/chat';
 
 export default function Home() {
@@ -35,7 +36,8 @@ export default function Home() {
   }, [messages]);
 
   return (
-    <ChatLayout onNewChat={clearSession} places={allPlaces}>
+    <ConversationProvider>
+      <ChatLayout onNewChat={clearSession} places={allPlaces}>
       {/* Messages List */}
       <div className="flex-1 overflow-y-auto p-3 sm:p-4 space-y-1 overscroll-contain">
         {messages.length === 0 && (
@@ -73,5 +75,6 @@ export default function Home() {
       {/* Input Area */}
       <MessageInput onSend={sendMessage} isStreaming={isStreaming} />
     </ChatLayout>
+    </ConversationProvider>
   );
 }

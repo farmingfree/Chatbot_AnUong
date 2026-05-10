@@ -9,15 +9,22 @@ export function useChat() {
   const [messages, setMessages] = useState<Message[]>([]);
   const [isStreaming, setIsStreaming] = useState(false);
   const [sessionId, setSessionId] = useState<string | null>(null);
+  const [conversationId, setConversationId] = useState<string | null>(null);
   const [userLocation, setUserLocation] = useState<UserLocation | null>(null);
   const [currentStreamingMessage, setCurrentStreamingMessage] = useState<string>('');
 
-  // Load session from localStorage on mount
+  // Load session and conversation from localStorage on mount
   useEffect(() => {
     const savedSessionId = localStorage.getItem('chat_session_id');
+    const savedConversationId = localStorage.getItem('current_conversation_id');
+
     if (savedSessionId) {
       setSessionId(savedSessionId);
       loadSessionHistory(savedSessionId);
+    }
+
+    if (savedConversationId) {
+      setConversationId(savedConversationId);
     }
 
     // Get user location
@@ -107,6 +114,7 @@ export function useChat() {
             lat: userLocation?.lat,
             lng: userLocation?.lng,
             session_id: sessionId,
+            conversation_id: conversationId,
           }),
         });
 
@@ -156,6 +164,9 @@ export function useChat() {
                 if (parsed.type === 'session_id') {
                   setSessionId(parsed.session_id);
                   localStorage.setItem('chat_session_id', parsed.session_id);
+                } else if (parsed.type === 'conversation_id') {
+                  setConversationId(parsed.conversation_id);
+                  localStorage.setItem('current_conversation_id', parsed.conversation_id);
                 } else if (parsed.type === 'text') {
                   streamingTextContent += parsed.content;
                   setCurrentStreamingMessage(streamingTextContent);
@@ -237,7 +248,9 @@ export function useChat() {
       localStorage.removeItem('chat_session_id');
       localStorage.removeItem(`chat_messages_${sessionId}`);
     }
+    localStorage.removeItem('current_conversation_id');
     setSessionId(null);
+    setConversationId(null);
     setMessages([]);
     setCurrentStreamingMessage('');
   }, [sessionId]);
@@ -246,10 +259,12 @@ export function useChat() {
     messages,
     isStreaming,
     sessionId,
+    conversationId,
     userLocation,
     currentStreamingMessage,
     sendMessage,
     clearSession,
     setUserLocation,
+    setConversationId,
   };
 }

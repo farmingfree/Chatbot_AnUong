@@ -3,6 +3,7 @@
 import { ReactNode, useState, useEffect } from 'react';
 import { ThemeToggle } from './ThemeToggle';
 import { MapModal } from './MapModal';
+import { ConversationSidebar } from './ConversationSidebar';
 import { PlaceCard } from '@/types/chat';
 
 interface ChatLayoutProps {
@@ -46,72 +47,8 @@ export function ChatLayout({ children, onNewChat, sessionTitle, places = [] }: C
 
   return (
     <div className="flex h-screen overflow-hidden bg-primary">
-      {/* Sidebar */}
-      <aside
-        className={`
-          ${sidebarOpen ? 'translate-x-0' : '-translate-x-full'}
-          md:translate-x-0
-          fixed md:static inset-y-0 left-0 z-50
-          w-72 sm:w-80 md:w-64 bg-secondary
-          border-r border-primary
-          transition-transform duration-300 ease-in-out
-          flex flex-col
-          shadow-xl md:shadow-none
-        `}
-      >
-        {/* Sidebar Header */}
-        <div className="p-3 sm:p-4 border-b border-primary shrink-0">
-          <div className="flex items-center justify-between mb-3 sm:mb-4">
-            <div className="flex items-center gap-2">
-              <span className="text-2xl">🍜</span>
-              <h1 className="font-semibold text-base sm:text-lg text-primary">Ăn gì cũng được</h1>
-            </div>
-            <button
-              onClick={() => setSidebarOpen(false)}
-              className="md:hidden p-1.5 hover-bg-tertiary rounded-lg transition-colors text-secondary"
-              aria-label="Đóng menu"
-            >
-              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-              </svg>
-            </button>
-          </div>
-
-          <button
-            onClick={() => {
-              onNewChat?.();
-              setSidebarOpen(false);
-            }}
-            className="w-full flex items-center justify-center gap-2 px-4 py-2.5 sm:py-2
-                     bg-accent hover:bg-accent-hover text-white
-                     rounded-lg transition-colors font-medium text-sm sm:text-base
-                     touch-manipulation"
-          >
-            <span className="text-lg sm:text-xl">+</span>
-            <span>Chat mới</span>
-          </button>
-        </div>
-
-        {/* Chat Sessions List */}
-        <div className="flex-1 overflow-y-auto p-2 overscroll-contain">
-          <div className="text-xs sm:text-sm text-secondary px-2 mb-2">
-            Lịch sử chat
-          </div>
-          <div className="text-xs sm:text-sm text-tertiary px-2 py-4 text-center">
-            Chưa có lịch sử chat
-          </div>
-        </div>
-
-        {/* Sidebar Footer */}
-        <div className="p-3 sm:p-4 border-t border-primary shrink-0">
-          <button className="w-full flex items-center gap-2 p-2 hover-bg-tertiary rounded-lg transition-colors touch-manipulation">
-            <div className="w-8 h-8 rounded-full bg-tertiary flex items-center justify-center shrink-0">
-              <span className="text-sm">👤</span>
-            </div>
-            <span className="text-xs sm:text-sm text-secondary truncate">Đăng nhập</span>
-          </button>
-        </div>
-      </aside>
+      {/* Use ConversationSidebar component */}
+      <ConversationSidebar isOpen={sidebarOpen} onClose={() => setSidebarOpen(false)} />
 
       {/* Mobile sidebar overlay */}
       {sidebarOpen && (

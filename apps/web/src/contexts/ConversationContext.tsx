@@ -1,202 +1,231 @@
 'use client';
 
 import { createContext, useContext, useEffect, useState, ReactNode, useCallback } from 'react';
-import { Conversation, ConversationStore } from '@/types/conversation';
+import { Conversation } from '@/types/conversation';
 import { Message } from '@/types/chat';
+
+const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000';
 
 interface ConversationContextType {
   conversations: Conversation[];
   activeConversationId: string | null;
-  createConversation: () => string;
-  deleteConversation: (id: string) => void;
-  renameConversation: (id: string, title: string) => void;
-  togglePinConversation: (id: string) => void;
+  isLoading: boolean;
+  createConversation: (firstMessage: string) => Promise<string>;
+  deleteConversation: (id: string) => Promise<void>;
+  renameConversation: (id: string, title: string) => Promise<void>;
+  togglePinConversation: (id: string) => Promise<void>;
   switchConversation: (id: string) => void;
-  updateConversationFromMessages: (id: string, messages: Message[]) => void;
-  getConversationMessages: (id: string) => Message[];
+  loadConversations: () => Promise<void>;
+  searchConversations: (query: string) => Promise<void>;
 }
 
 const ConversationContext = createContext<ConversationContextType>({
   conversations: [],
   activeConversationId: null,
-  createConversation: () => '',
-  deleteConversation: () => {},
-  renameConversation: () => {},
-  togglePinConversation: () => {},
+  isLoading: false,
+  createConversation: async () => '',
+  deleteConversation: async () => {},
+  renameConversation: async () => {},
+  togglePinConversation: async () => {},
   switchConversation: () => {},
-  updateConversationFromMessages: () => {},
-  getConversationMessages: () => [],
+  loadConversations: async () => {},
+  searchConversations: async () => {},
 });
-
-const STORAGE_KEY = 'chat_conversations';
-const MESSAGES_PREFIX = 'chat_messages_';
 
 export function ConversationProvider({ children }: { children: ReactNode }) {
   const [conversations, setConversations] = useState<Conversation[]>([]);
   const [activeConversationId, setActiveConversationId] = useState<string | null>(null);
-  const [mounted, setMounted] = useState(false);
+  const [isLoading, setIsLoading] = useState(false);
+  const [userId] = useState<string | null>(null); // TODO: Get from auth
 
-  // Load conversations from localStorage on mount
+  // Load conversations on mount
   useEffect(() => {
-    setMounted(true);
-    const stored = localStorage.getItem(STORAGE_KEY);
-    if (stored) {
-      try {
-        const parsed: ConversationStore = JSON.parse(stored);
-        setConversations(parsed.conversations.map(c => ({
-          ...c,
-          timestamp: new Date(c.timestamp),
-        })));
-        setActiveConversationId(parsed.activeConversationId);
-      } catch (error) {
-        console.error('Error loading conversations:', error);
-      }
-    }
+    loadConversations();
 
-    // If no conversations exist, create a default one
-    if (!stored || JSON.parse(stored).conversations.length === 0) {
-      const newId = createNewConversation();
-      setActiveConversationId(newId);
+    // Load active conversation from localStorage
+    const savedConvId = localStorage.getItem('current_conversation_id');
+    if (savedConvId) {
+      setActiveConversationId(savedConvId);
     }
   }, []);
 
-  // Save conversations to localStorage whenever they change
-  useEffect(() => {
-    if (mounted && conversations.length > 0) {
-      const store: ConversationStore = {
-        conversations,
-        activeConversationId,
+  const loadConversations = useCallback(async () => {
+    setIsLoading(true);
+    try {
+      const params = new URLSearchParams();
+      if (userId) params.append('user_id', userId);
+      params.append('limit', '50');
+
+      const response = await fetch(`${API_URL}/api/conversations?${params}`);
+      if (!response.ok) throw new Error('Failed to load conversations');
+
+      const data = await response.json();
+      setConversations(data.conversations.map((c: any) => ({
+        id: c.id,
+        title: c.title,
+        lastMessage: '',
+        timestamp: new Date(c.last_message_at),
+        isPinned: c.is_pinned,
+        messageCount: c.message_count,
+      })));
+    } catch (error) {
+      console.error('Error loading conversations:', error);
+    } finally {
+      setIsLoading(false);
+    }
+  }, [userId]);
+
+  const createConversation = useCallback(async (firstMessage: string): Promise<string> => {
+    try {
+      const response = await fetch(`${API_URL}/api/conversations`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          user_id: userId,
+          first_message: firstMessage,
+        }),
+      });
+
+      if (!response.ok) throw new Error('Failed to create conversation');
+
+      const data = await response.json();
+      const newConv: Conversation = {
+        id: data.id,
+        title: data.title,
+        lastMessage: firstMessage,
+        timestamp: new Date(data.created_at),
+        isPinned: false,
+        messageCount: 1,
       };
-      localStorage.setItem(STORAGE_KEY, JSON.stringify(store));
+
+      setConversations(prev => [newConv, ...prev]);
+      setActiveConversationId(data.id);
+      localStorage.setItem('current_conversation_id', data.id);
+
+      return data.id;
+    } catch (error) {
+      console.error('Error creating conversation:', error);
+      throw error;
     }
-  }, [conversations, activeConversationId, mounted]);
+  }, [userId]);
 
-  const createNewConversation = useCallback((): string => {
-    const id = `conv_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`;
-    const newConv: Conversation = {
-      id,
-      title: 'Cuộc trò chuyện mới',
-      lastMessage: '',
-      timestamp: new Date(),
-      isPinned: false,
-      messageCount: 0,
-    };
-    setConversations(prev => [newConv, ...prev]);
-    return id;
-  }, []);
+  const deleteConversation = useCallback(async (id: string) => {
+    try {
+      const response = await fetch(`${API_URL}/api/conversations/${id}`, {
+        method: 'DELETE',
+      });
 
-  const createConversation = useCallback((): string => {
-    const id = createNewConversation();
-    setActiveConversationId(id);
-    return id;
-  }, [createNewConversation]);
+      if (!response.ok) throw new Error('Failed to delete conversation');
 
-  const deleteConversation = useCallback((id: string) => {
-    setConversations(prev => prev.filter(c => c.id !== id));
-    localStorage.removeItem(`${MESSAGES_PREFIX}${id}`);
-    localStorage.removeItem(`chat_session_id_${id}`);
+      setConversations(prev => prev.filter(c => c.id !== id));
 
-    // If deleting active conversation, switch to another
-    if (activeConversationId === id) {
-      setConversations(prev => {
-        if (prev.length > 0) {
-          setActiveConversationId(prev[0].id);
+      // If deleting active conversation, switch to another
+      if (activeConversationId === id) {
+        const remaining = conversations.filter(c => c.id !== id);
+        if (remaining.length > 0) {
+          setActiveConversationId(remaining[0].id);
+          localStorage.setItem('current_conversation_id', remaining[0].id);
         } else {
-          const newId = createNewConversation();
-          setActiveConversationId(newId);
+          setActiveConversationId(null);
+          localStorage.removeItem('current_conversation_id');
         }
-        return prev;
-      });
+      }
+    } catch (error) {
+      console.error('Error deleting conversation:', error);
+      throw error;
     }
-  }, [activeConversationId, createNewConversation]);
+  }, [activeConversationId, conversations]);
 
-  const renameConversation = useCallback((id: string, title: string) => {
-    setConversations(prev =>
-      prev.map(c => (c.id === id ? { ...c, title } : c))
-    );
-  }, []);
-
-  const togglePinConversation = useCallback((id: string) => {
-    setConversations(prev => {
-      const updated = prev.map(c =>
-        c.id === id ? { ...c, isPinned: !c.isPinned } : c
-      );
-      // Sort: pinned first, then by timestamp
-      return updated.sort((a, b) => {
-        if (a.isPinned && !b.isPinned) return -1;
-        if (!a.isPinned && b.isPinned) return 1;
-        return b.timestamp.getTime() - a.timestamp.getTime();
+  const renameConversation = useCallback(async (id: string, title: string) => {
+    try {
+      const response = await fetch(`${API_URL}/api/conversations/${id}`, {
+        method: 'PATCH',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ title }),
       });
-    });
+
+      if (!response.ok) throw new Error('Failed to rename conversation');
+
+      setConversations(prev =>
+        prev.map(c => (c.id === id ? { ...c, title } : c))
+      );
+    } catch (error) {
+      console.error('Error renaming conversation:', error);
+      throw error;
+    }
   }, []);
+
+  const togglePinConversation = useCallback(async (id: string) => {
+    const conv = conversations.find(c => c.id === id);
+    if (!conv) return;
+
+    try {
+      const response = await fetch(`${API_URL}/api/conversations/${id}`, {
+        method: 'PATCH',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ is_pinned: !conv.isPinned }),
+      });
+
+      if (!response.ok) throw new Error('Failed to toggle pin');
+
+      setConversations(prev =>
+        prev.map(c => (c.id === id ? { ...c, isPinned: !c.isPinned } : c))
+      );
+    } catch (error) {
+      console.error('Error toggling pin:', error);
+      throw error;
+    }
+  }, [conversations]);
 
   const switchConversation = useCallback((id: string) => {
     setActiveConversationId(id);
+    localStorage.setItem('current_conversation_id', id);
   }, []);
 
-  const updateConversationFromMessages = useCallback((id: string, messages: Message[]) => {
-    if (messages.length === 0) return;
-
-    const lastMsg = messages[messages.length - 1];
-    const firstUserMsg = messages.find(m => m.role === 'user');
-
-    // Auto-generate title from first user message
-    let autoTitle = 'Cuộc trò chuyện mới';
-    if (firstUserMsg && firstUserMsg.content) {
-      const content = typeof firstUserMsg.content === 'string'
-        ? firstUserMsg.content
-        : JSON.stringify(firstUserMsg.content);
-      autoTitle = content.slice(0, 40) + (content.length > 40 ? '...' : '');
+  const searchConversations = useCallback(async (query: string) => {
+    if (!query.trim()) {
+      await loadConversations();
+      return;
     }
 
-    setConversations(prev =>
-      prev.map(c => {
-        if (c.id === id) {
-          // Only auto-update title if it's still the default
-          const shouldUpdateTitle = c.title === 'Cuộc trò chuyện mới' && c.messageCount === 0;
-          return {
-            ...c,
-            title: shouldUpdateTitle ? autoTitle : c.title,
-            lastMessage: typeof lastMsg.content === 'string'
-              ? lastMsg.content.slice(0, 60)
-              : '',
-            timestamp: new Date(),
-            messageCount: messages.length,
-          };
-        }
-        return c;
-      })
-    );
-  }, []);
-
-  const getConversationMessages = useCallback((id: string): Message[] => {
+    setIsLoading(true);
     try {
-      const stored = localStorage.getItem(`${MESSAGES_PREFIX}${id}`);
-      if (stored) {
-        const parsed = JSON.parse(stored);
-        return parsed.map((msg: any) => ({
-          ...msg,
-          timestamp: new Date(msg.timestamp),
-        }));
-      }
+      const params = new URLSearchParams();
+      params.append('q', query);
+      if (userId) params.append('user_id', userId);
+
+      const response = await fetch(`${API_URL}/api/conversations/search?${params}`);
+      if (!response.ok) throw new Error('Failed to search conversations');
+
+      const data = await response.json();
+      setConversations(data.map((result: any) => ({
+        id: result.conversation.id,
+        title: result.conversation.title,
+        lastMessage: '',
+        timestamp: new Date(result.conversation.last_message_at),
+        isPinned: result.conversation.is_pinned,
+        messageCount: result.conversation.message_count,
+      })));
     } catch (error) {
-      console.error('Error loading messages for conversation:', id, error);
+      console.error('Error searching conversations:', error);
+    } finally {
+      setIsLoading(false);
     }
-    return [];
-  }, []);
+  }, [userId, loadConversations]);
 
   return (
     <ConversationContext.Provider
       value={{
         conversations,
         activeConversationId,
+        isLoading,
         createConversation,
         deleteConversation,
         renameConversation,
         togglePinConversation,
         switchConversation,
-        updateConversationFromMessages,
-        getConversationMessages,
+        loadConversations,
+        searchConversations,
       }}
     >
       {children}
