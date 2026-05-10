@@ -10,7 +10,7 @@ class MessageBase(BaseModel):
     role: str = Field(..., description="Message role: user, assistant, or system")
     content: str = Field(..., description="Message content")
     message_type: str | None = Field(None, description="Message type: text, places, dishes, place_detail")
-    metadata: dict | None = Field(None, description="Additional metadata (places data, tool calls, etc.)")
+    extra_data: dict | None = Field(None, description="Additional data (places, tool calls, etc.)")
 
 
 class MessageCreate(MessageBase):

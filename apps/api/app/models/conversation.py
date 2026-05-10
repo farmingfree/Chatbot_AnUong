@@ -6,7 +6,7 @@ from uuid import uuid4
 from sqlalchemy import Column, String, Boolean, Integer, DateTime, Text, ForeignKey
 from sqlalchemy.dialects.postgresql import UUID, JSONB
 from sqlalchemy.orm import relationship
-from app.database import Base
+from app.models.base import Base
 
 
 class Conversation(Base):
@@ -50,7 +50,7 @@ class Message(Base):
     role = Column(String(20), nullable=False)  # 'user' | 'assistant' | 'system'
     content = Column(Text, nullable=False)
     message_type = Column(String(50), nullable=True)  # 'text' | 'places' | 'dishes' | 'place_detail'
-    metadata = Column(JSONB, nullable=True)  # For places data, tool calls, etc.
+    extra_data = Column(JSONB, nullable=True)  # For places data, tool calls, etc. (renamed from metadata)
     created_at = Column(DateTime, default=datetime.utcnow, nullable=False, index=True)
 
     # Relationships

@@ -5,5 +5,6 @@ from app.models.place_dish import PlaceDish
 from app.models.review import Review
 from app.models.user import User
 from app.models.favorite import Favorite
+from app.models.conversation import Conversation, Message
 
-__all__ = ["Base", "Place", "Dish", "PlaceDish", "Review", "User", "Favorite"]
+__all__ = ["Base", "Place", "Dish", "PlaceDish", "Review", "User", "Favorite", "Conversation", "Message"]

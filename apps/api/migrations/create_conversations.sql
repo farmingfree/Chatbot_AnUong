@@ -28,7 +28,7 @@ CREATE TABLE IF NOT EXISTS messages (
     role VARCHAR(20) NOT NULL,
     content TEXT NOT NULL,
     message_type VARCHAR(50),
-    metadata JSONB,
+    extra_data JSONB,
     created_at TIMESTAMP DEFAULT NOW()
 );
 
