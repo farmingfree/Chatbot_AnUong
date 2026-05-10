@@ -1,4 +1,5 @@
 import { PlaceCard } from '@/types/chat';
+import { MapView } from './MapView';
 
 interface RestaurantCardProps {
   place: PlaceCard;
@@ -77,10 +78,21 @@ export function RestaurantCard({ place }: RestaurantCardProps) {
 
 export function RestaurantGrid({ places }: { places: PlaceCard[] }) {
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-4 my-3 sm:my-4 px-2 sm:px-0">
-      {places.map((place) => (
-        <RestaurantCard key={place.id} place={place} />
-      ))}
+    <div className="space-y-4 my-4 px-2 sm:px-0">
+      {/* Map Section */}
+      <MapView
+        places={places}
+        userLocation={null}
+        radius={1000}
+        className="h-64 sm:h-80 lg:h-96 rounded-lg border border-gray-200 dark:border-gray-700"
+      />
+
+      {/* Restaurant Cards Grid */}
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-4">
+        {places.map((place) => (
+          <RestaurantCard key={place.id} place={place} />
+        ))}
+      </div>
     </div>
   );
 }
