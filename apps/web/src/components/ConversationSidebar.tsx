@@ -94,7 +94,7 @@ export function ConversationSidebar({ isOpen, onClose }: { isOpen: boolean; onCl
               </h2>
               <button
                 onClick={onClose}
-                className="lg:hidden p-2 hover:bg-gray-100 dark:hover:bg-gray-700 rounded-lg"
+                className="lg:hidden p-2 hover:bg-gray-100 dark:hover:bg-gray-700 rounded-lg text-gray-600 dark:text-gray-300 transition-colors"
               >
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
@@ -115,10 +115,10 @@ export function ConversationSidebar({ isOpen, onClose }: { isOpen: boolean; onCl
                 placeholder="Tìm kiếm..."
                 value={searchQuery}
                 onChange={(e) => handleSearch(e.target.value)}
-                className="w-full px-4 py-2 pl-10 bg-gray-100 dark:bg-gray-700 border-none rounded-lg text-sm focus:ring-2 focus:ring-blue-500"
+                className="w-full px-4 py-2 pl-10 bg-gray-100 dark:bg-gray-700 text-gray-900 dark:text-gray-100 placeholder-gray-500 dark:placeholder-gray-400 border-none rounded-lg text-sm focus:ring-2 focus:ring-blue-500 focus:outline-none"
               />
               <svg
-                className="absolute left-3 top-2.5 w-5 h-5 text-gray-400"
+                className="absolute left-3 top-2.5 w-5 h-5 text-gray-400 dark:text-gray-500"
                 fill="none"
                 stroke="currentColor"
                 viewBox="0 0 24 24"
@@ -170,7 +170,7 @@ export function ConversationSidebar({ isOpen, onClose }: { isOpen: boolean; onCl
                         if (e.key === 'Enter') saveRename(conv.id);
                         if (e.key === 'Escape') setEditingId(null);
                       }}
-                      className="w-full px-2 py-1 text-sm font-medium bg-white dark:bg-gray-700 border border-blue-500 rounded"
+                      className="w-full px-2 py-1 text-sm font-medium bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100 border border-blue-500 rounded focus:outline-none"
                       autoFocus
                       onClick={(e) => e.stopPropagation()}
                     />
@@ -202,7 +202,7 @@ export function ConversationSidebar({ isOpen, onClose }: { isOpen: boolean; onCl
                         e.stopPropagation();
                         togglePinConversation(conv.id);
                       }}
-                      className="p-1.5 hover:bg-gray-200 dark:hover:bg-gray-600 rounded"
+                      className="p-1.5 hover:bg-gray-200 dark:hover:bg-gray-600 rounded text-gray-600 dark:text-gray-300"
                       title={conv.isPinned ? 'Bỏ ghim' : 'Ghim'}
                     >
                       <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -214,7 +214,7 @@ export function ConversationSidebar({ isOpen, onClose }: { isOpen: boolean; onCl
                         e.stopPropagation();
                         handleRename(conv);
                       }}
-                      className="p-1.5 hover:bg-gray-200 dark:hover:bg-gray-600 rounded"
+                      className="p-1.5 hover:bg-gray-200 dark:hover:bg-gray-600 rounded text-gray-600 dark:text-gray-300"
                       title="Đổi tên"
                     >
                       <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
